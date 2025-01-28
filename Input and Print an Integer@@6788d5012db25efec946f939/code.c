@@ -6,3 +6,4 @@ int main() {
     printf("You entered: %d",num);
     return 0;
 }
+
