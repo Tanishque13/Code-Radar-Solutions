@@ -9,11 +9,11 @@ int main(){
            ch=="A"||ch=="E"||ch=="I"||ch=="O"||ch=="U"){
            printf("Vowel\n");
         }else{
-            printf("Consonant\n");
+           printf("Consonant\n");
         }
     }
 
-    else if(isdigit(ch)){
+    else if (isdigit(ch)) {
         printf("Digit\n");
 
     }
