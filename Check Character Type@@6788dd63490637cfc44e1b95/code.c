@@ -5,20 +5,20 @@ int main(){
     char ch;
     scanf("%c",&ch);
     if(isalpha(ch)){
-        if(ch=="a" || ch=="e" || ch=="i" || ch=="o" || ch=="u"){
-            printf("Vowel");
-        }else{
-            printf("Consonant");
-        }
-    }
 
+    
+    if(ch=="a"||"e"||"i"||"o"||"u"||"A"||"E"||"I"||"O"||"U"){
+        printf("Vowel");
+    }else{
+        printf("Consonant");
+    }
+    }
     else if(isdigit(ch)){
         printf("Digit");
+
     }
     else{
         printf("Special Character");
     }
-
-    
     return 0;
 }
