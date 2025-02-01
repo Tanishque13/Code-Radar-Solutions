@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
     int temp;
-    scanf("%d",&tempt);
+    scanf("%d",&temp);
     if(temp<=0){
         printf("Freezing");
     }else{
-        printf("Abobe Freezing");
+        printf("Above Freezing");
     }
     return 0;
 }
