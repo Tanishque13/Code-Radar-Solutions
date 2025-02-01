@@ -4,10 +4,10 @@ int main(){
     int num1,num2;
     scanf("%d %d",&num1,&num2);
     if(num2*num2==sqrt(num2*num)){
-        printf(Yes);
+        printf("Yes");
 
     }else{
-        printf(No);
+        printf("No");
     }
     return 0;
 }
