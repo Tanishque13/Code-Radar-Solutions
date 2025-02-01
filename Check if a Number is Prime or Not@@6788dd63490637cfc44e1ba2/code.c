@@ -4,7 +4,7 @@ int main(){
         int is_p=1;
         for(i=2;i<num;i++){
             if(num%i==0){
-                is_p=0
+                is_p=0;
                 break;
 
             }
