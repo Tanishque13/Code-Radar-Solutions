@@ -13,4 +13,5 @@ int main(){
     }else if(num<60){
         printf("F");
     }
+    return 0;
 }
