@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int num,i;
+    int num,i,is_p;
     scanf("%d",&num);
     if(num>0){
-        is_p=1
+        
         for(i=2;i<num;i++){
             if(num%i==0){
                 is_p=0;
@@ -17,6 +17,9 @@ int main(){
         else{
             printf("Not a Prime");
         }
+    else{
+        printf("Not A Prime");
+    }
     }
     return 0;
 }
