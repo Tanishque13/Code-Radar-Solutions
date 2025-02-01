@@ -4,9 +4,9 @@ int main{
     scanf("%d %d",&num1,&num2);
     if(num1%num2==0){
         printf("Yes");
-        }
-        else{
-            printf("No");
-        }
+    }
+    else{
+        printf("No");
+    }
     return 0;
 }
