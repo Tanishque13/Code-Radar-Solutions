@@ -1,20 +1,13 @@
 #include <stdio.h>
 int main(){
-    int num;
+    int num,i;
     scanf("%d",&num);
-    if(num>1){
-        int is_p=1;
-        for (i=2;i<num,i++){
-            if(num%i==0){
-                is_p=0;
-                break;
-            }
-        }
-        if is_p{
+    for(i=2;i<num.i++){
+        if(num%i==0){
             printf("Prime");
         }else{
             printf("Not Prime");
         }
+        return 0;
     }
-    return 0;
-}
+    
