@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int num,i,is_p;
+    int num,i,is_p=1;
     scanf("%d",&num);
     if(num>0){
         
@@ -20,6 +20,7 @@ int main(){
     else{
         printf("Not a Prime");
     }
-    
+    }
     return 0;
+
 }
