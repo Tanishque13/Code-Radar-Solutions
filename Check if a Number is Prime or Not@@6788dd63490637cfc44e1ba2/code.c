@@ -8,7 +8,7 @@ int main(){
         }
     }
     if(isprime){
-        printf("Not a Prime");
+        printf("Not Prime");
     }else{
         printf("Prime");
     }
