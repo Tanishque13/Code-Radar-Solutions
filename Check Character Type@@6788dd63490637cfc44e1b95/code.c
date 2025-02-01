@@ -10,8 +10,6 @@ int main(){
         }else{
             printf("Consonant");
         }
-        
-    
     }
 
     else if(isdigit(ch)){
