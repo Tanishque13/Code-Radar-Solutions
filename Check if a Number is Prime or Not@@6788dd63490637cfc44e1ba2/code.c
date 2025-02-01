@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int num;
+    int num,i;
     scanf("%d",&num);
     if(num>0){
         is_p=1
