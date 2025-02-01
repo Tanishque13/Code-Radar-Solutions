@@ -1,11 +1,10 @@
 #include <stdio.h>
 int main{
-    int num1,num2;
-    scanf("%d %d",&num1,&num2);
-    if(num1%num2==0){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    if(a%b==0){
         printf("Yes");
-    }
-    else{
+    }else{
         printf("No");
     }
     return 0;
