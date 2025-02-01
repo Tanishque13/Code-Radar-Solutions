@@ -10,9 +10,9 @@ int main(){
         }
     }
     if(isprime){
-        printf("Not Prime");
-    }else{
         printf("Prime");
+    }else{
+        printf("Not Prime");
     }
     return 0;
     
