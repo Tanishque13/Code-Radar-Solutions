@@ -6,9 +6,9 @@ int main(){
     if(ch=="a" || "e" || "i" || "o" || "u"){
         printf("Vowel");
     }elif(ch!="a" || "e" || "i" || "o" || "u"){
-        printf("Consonant")
+        printf("Consonant");
     }else{
-        printf("Special Character")
+        printf("Special Character");
     }
     return 0;
 
