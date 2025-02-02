@@ -5,6 +5,6 @@ int main(){
     if(a!=b){
         printf("True");
     }else{
-        printg("False");
+        printf("False");
     }
 }
