@@ -2,18 +2,21 @@
 int main(){
     int a,b;
     char op;
-    scanf("%d %d",&a,&b);
-    scanf("%c",op);
-    if(op=='+'){
-        int sum=a+b;
-        printf("%d",sum);
+    scanf("%d %d %c",&a,&b,&op);
+    
+    switch(op)
+        printf("%d",a+b);
     }else if(op=='-'){
         printf("%d",a-b);
     }else if(op=='*'){
         printf("%d",a*b);
     }else if(op=='/'){
-        printf("%d",a/b);
-    }else{
+        if(b!=0){
+            printf("%d",a/b);
+        }else{
+            printf("%d",a/b);
+        }
+    else{
         printf("error");
     }
     return 0;
