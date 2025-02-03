@@ -2,10 +2,10 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    if((a>>31)&b){
-        printf("%d",1);
+    if((a>>31)&1){
+        printf("%d",b);
     }else{
-        printf("%d",0);
+        printf("%d",b);
     }
 
 
