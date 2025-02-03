@@ -16,6 +16,7 @@ int main(){
         }else{
             printf("error");
         }
+    }
     else{
         printf("error");
     }
