@@ -5,8 +5,6 @@ int main(){
     scanf("%d %d %c",&a,&b,&op);
     
     if(op=='+'){
-
-    
         printf("%d",a+b);
     }else if(op=='-'){
         printf("%d",a-b);
@@ -22,6 +20,6 @@ int main(){
     else{
         printf("error");
     }
-    }
+    
     return 0;
 }
