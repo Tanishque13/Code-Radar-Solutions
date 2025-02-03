@@ -4,7 +4,9 @@ int main(){
     char op;
     scanf("%d %d %c",&a,&b,&op);
     
-    switch(op)
+    if(op=='+'){
+
+    
         printf("%d",a+b);
     }else if(op=='-'){
         printf("%d",a-b);
@@ -16,9 +18,10 @@ int main(){
         }else{
             printf("error");
         }
-    }
+    
     else{
         printf("error");
+    }
     }
     return 0;
 }
