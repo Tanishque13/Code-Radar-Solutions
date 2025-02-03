@@ -2,11 +2,8 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    if((a>>31)&1){
-        printf("%d",b);
-    }else{
-        printf("%d",b);
-    }
+    printf("%d",(~(1>>b)&a));
+    
 
 
 
