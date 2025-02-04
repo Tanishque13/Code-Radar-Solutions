@@ -6,7 +6,7 @@ int main(){
             printf("%c",'*');
 
         }
-        printf();
+    printf();
     }
     return 0;
 }
