@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
     int a;
-    for(i=0;i<a;i++){
-        for(j=0;j<a;j++){
+    for(int i=0;i<a;i++){
+        for(int j=0;j<a;j++){
             printf("*");
         }
         printf("\n");
