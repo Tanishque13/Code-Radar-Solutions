@@ -6,4 +6,5 @@ int main(){
     for(int i=0;i<=N;i++){
         printf("%d",in+=i);
     }
+    return 0;
 }
