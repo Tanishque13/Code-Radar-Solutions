@@ -1,1 +1,1 @@
-[{"index":39,"id":"67b0eb4a17930522cbe25a39","title":"Output of for loop with pre-increment","correctAnswer":"1 2 3","selectedOption":"0 1 2","isCorrect":false,"type":"MCQ"}]
+[{"index":39,"id":"67b0eb4a17930522cbe25a39","title":"Output of for loop with pre-increment","correctAnswer":"1 2 3","selectedOption":"0 1 2","isCorrect":false,"type":"MCQ"},{"index":40,"id":"67b0eb4a17930522cbe25a3c","title":"Output of printf with mixed increments","correctAnswer":"6 5 6","selectedOption":"6 5 6","isCorrect":true,"type":"MCQ"}]
