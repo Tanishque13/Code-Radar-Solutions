@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 
 int isPrime(int num)
@@ -11,5 +10,5 @@ int isPrime(int num)
         {
             if(num%i==0){iss=0;}
         }
-    }return iss;
+  }returniss;
 }
