@@ -10,5 +10,5 @@ int isPrime(int num)
         {
             if(num%i==0){iss=0;}
         }
-  }returniss;
+  }return iss;
 }
