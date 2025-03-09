@@ -16,13 +16,7 @@ int main(){
                 
                 printf("*");
             }
-            for(j=1;j<=n;j++){
-                for(k=1;k<=j;k++){
-                    printf("*");
-                }
-                printf(" ");
-            }
-            printf("\n");
+            
         }
         printf("\n");
 
