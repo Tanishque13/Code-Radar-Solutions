@@ -5,11 +5,11 @@ int main(){
     scanf("%d",&n);
     for(i=1;i<=n;i++){
         for(j=1;j<=n;j++){
-            if(i+j>n&&i+j<n+2){
-                printf("*");
+            if(i+j<n+1){
+                printf(" ");
             }
             else{
-                printf(" ");
+                printf("*");
             }
         }
         printf("\n");
