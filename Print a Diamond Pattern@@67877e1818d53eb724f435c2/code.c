@@ -17,6 +17,21 @@ int main(){
             printf("*");
         }
         printf("\n");
+        while(i==j){
+            for(j=1;j<=n;j++){
+            if(i+j<n+1){
+                printf(" ");
+            }else{
+                printf("*");
+            }
+        }
+    
+
+        for(j=1;j<i;j++){
+            printf("*");
+        }
+
+        }
     }
 }
             
