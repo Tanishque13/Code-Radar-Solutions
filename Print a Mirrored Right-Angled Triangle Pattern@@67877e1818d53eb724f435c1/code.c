@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 int main(){
     int i,j,N;
@@ -9,9 +8,6 @@ int main(){
             }else{
                 printf(" ");
             }
-            
-
-            
         }
         printf("\n");
     }
