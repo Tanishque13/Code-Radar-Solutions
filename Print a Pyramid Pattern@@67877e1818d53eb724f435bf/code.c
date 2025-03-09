@@ -8,7 +8,7 @@ int main(){
             if(i+j<n+1){
                 printf(" ");
             }
-            elif(i+j>n+4){
+            else if(i+j>n+4){
                 printf("*");
 
             }
