@@ -7,17 +7,12 @@ int main(){
         for(j=1;j<=n;j++){
             if(i+j<n+1){
                 printf(" ");
-            }
-            
-
-            
-            else{
-                
-                
+            }else{
                 printf("*");
             }
+
             for(i>=2&&j>n+1){
-                if((i+j>n+2) && (i+j<n+4)){
+                if(i+j>n+2 && i+j<n+4){
                     printf("*");
                 }else{
                     printf(" ");
