@@ -16,7 +16,7 @@ int main(){
                     if(i+j<n+1){
                         printf(" ");
                     }else{
-                        printf("%d",orig)';
+                        printf("%d",orig);
                     }
 
                 }
