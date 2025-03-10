@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int x,i,j,num,sum=0;
+    int i,j,num,sum=0;
     scanf("%d",&num);
     int orig=num;
     while(num>0){
@@ -11,7 +11,7 @@ int main(){
     if(sum==orig){
         int n=orig;
         for(i=1;i<=n;i++){
-            for(j=1;j<=i;i++){
+            for(j=1;j<=i;j++){
                 for(j=1;j<=n;j++){
                     if(i+j<n+1){
                         printf(" ");
