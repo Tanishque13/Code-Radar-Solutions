@@ -8,7 +8,7 @@ int main(){
         for(j=1;j<=n;j++){
             if(i+j<n+1){
                 printf(" ");
-                a++;
+                
             }else{
                 printf("%d ",a);
                 a++;
