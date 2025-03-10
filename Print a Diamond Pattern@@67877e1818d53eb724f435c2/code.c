@@ -20,17 +20,17 @@ int main(){
         printf("\n");
 
         for (i = n - 1; i >= 1; i--) {
-        for (j = 1; j <= n; j++) {
-            if (i + j < n + 1) {
-                printf(" ");
-            } else {
-                printf("*");
+            for (j = 1; j <= n; j++) {
+                if (i + j < n + 1) {
+                    printf(" ");
+                } else {
+                    printf("*");
+                }
             }
-        }
-        for (j = 1; j < i; j++) {
+            for (j = 1; j < i; j++) {
             printf("*");
-        }
-        printf("\n");
+            }
+            printf("\n");
     }
         
 
