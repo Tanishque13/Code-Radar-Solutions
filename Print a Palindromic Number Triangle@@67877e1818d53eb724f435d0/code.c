@@ -5,7 +5,7 @@ int main() {
     int x, i, j, num, sum = 0;
 
     
-    printf("Enter a number: ");
+    
     scanf("%d", &num);
 
     int orig = num;  
