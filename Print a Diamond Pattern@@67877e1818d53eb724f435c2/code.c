@@ -1,6 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
+
     int i,j,n;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
@@ -17,23 +18,12 @@ int main(){
             printf("*");
         }
         printf("\n");
-        while(i==j){
-            for(j=1;j<=n;j++){
-            if(i+j<n+1){
-                printf(" ");
-            }else{
-                printf("*");
-            }
-        }
-    
-
-        for(j=1;j<i;j++){
-            printf("*");
-        }
+        
 
         }
     }
-}
+    
+
             
         
        
