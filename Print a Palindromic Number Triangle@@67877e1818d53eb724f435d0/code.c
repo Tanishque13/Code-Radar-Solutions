@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int i,j,n,num,sum=0;
+    int i,j,num,sum=0;
     scanf("%d",&num);
     int orig=num;
     while(num>0){
@@ -16,7 +16,7 @@ int main(){
                     if(i+j<n+1){
                         printf(" ");
                     }else{
-                        printf("%d",num)';
+                        printf("%d",orig)';
                     }
 
                 }
