@@ -6,7 +6,8 @@ int main(){
     int a=1;
     for(i=1;i<=n;i++){
         for(j=1;j<=i;j++){
-            printf("%c",(char)a);
+            char b=(char)a;
+            printf("%c",b);
             a++;
         }
         printf("\n");
