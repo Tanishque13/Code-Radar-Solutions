@@ -25,12 +25,12 @@ int main() {
                 if (i + j < n + 1) {
                     printf(" ");
                 } else {
-                    printf("%d", n);
+                    printf("%d", orig);
                 }
             }
 
             for (j = 1; j < i; j++) {  
-                printf("%d", n);
+                printf("%d", orig);
             }
             
             printf("\n"); 
