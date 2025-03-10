@@ -9,6 +9,7 @@ int main(){
         for(j=1;j<=i;j++){
             if(i%2!=0){
                 printf("%d",a);
+                a++;
             }
             
         }
