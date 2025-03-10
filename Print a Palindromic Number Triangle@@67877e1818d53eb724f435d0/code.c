@@ -24,12 +24,13 @@ int main() {
             for (j = 1; j <= n; j++) {
                 if (i + j < n + 1) {
                     printf(" ");
-                } else {
-                    printf("%d", n);
-                }
+                } 
             }
-            for (j = 1; j < i; j++) {  
-                printf("%d", n);
+            for (j = 1; j <= i; j++) {  
+                printf("%d", j);
+            }
+            for(j=i-1;j>=1;j--){
+                printf("%d",j)
             }
 
             
