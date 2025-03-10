@@ -8,7 +8,7 @@ int main(){
         int sum=sum*10+num%10;
         num=num/10;
     }
-    if(x==orig){
+    if(sum==orig){
         int n=orig;
         for(i=1;i<=n;i++){
             for(j=1;j<=i;i++){
