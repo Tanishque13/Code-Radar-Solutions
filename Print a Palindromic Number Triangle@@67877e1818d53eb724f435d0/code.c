@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int i,j,num,sum=0;
+    int x,i,j,num,sum=0;
     scanf("%d",&num);
     int orig=num;
     while(num>0){
