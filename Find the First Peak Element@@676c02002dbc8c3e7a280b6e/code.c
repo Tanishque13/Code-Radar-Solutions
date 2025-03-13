@@ -1,0 +1,16 @@
+// Your code here...
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    arr[n];
+    for(int i=1;i<n;i++){
+        scanf("%d",arr[n]);
+        int max=arr[0];
+    }
+    if(max<arr[i]){
+        printf("%d",arr[i]);
+    }else{
+        printf("-1");
+    }
+}
