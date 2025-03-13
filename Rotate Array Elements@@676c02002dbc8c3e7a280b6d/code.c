@@ -7,13 +7,14 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
 
-    }
+    
     int k;
     if(k>0){
         printf("%d\n",arr[i+k]);
 
     }
        
+    }
     
     }
 }
