@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
     
         max=arr[0];
-        if(max>arr[i]){
+        if(arr[i]>max){
             printf("Not Sorted");
         }else{
             printf("Sorted");
