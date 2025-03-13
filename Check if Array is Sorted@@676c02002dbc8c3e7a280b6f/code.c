@@ -7,13 +7,14 @@ int main(){
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
+    }
     max=arr[0];
     if(max>arr[i]){
         printf("Not Sorted");
     }else{
         printf("Sorted");
     }
-    }
+    
     
 }
 
