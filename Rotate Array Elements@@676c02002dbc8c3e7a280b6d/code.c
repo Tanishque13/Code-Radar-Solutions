@@ -9,7 +9,9 @@ int main(){
 
     
     int k;
+    scanf("%d",&k);
     for(int i=n-1;i>0;i--){
+
         if(k>0){
         printf("%d\n",arr[i+k]);
 
