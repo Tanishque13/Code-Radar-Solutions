@@ -8,7 +8,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         max=arr[0];
-        if(max>arr[i]){
+        if(max>arr[i+1]){
             printf("Not Sorted");
         }else{
             printf("Sorted");
