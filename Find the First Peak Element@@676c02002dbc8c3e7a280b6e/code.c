@@ -9,7 +9,8 @@ int main(){
     } 
     
     for(int i=1;i<n;i++){
-        printf("%d\n",arr[i]);
+        //max=arr[0];
+        printf("%d",arr[0]);
 
 
     
