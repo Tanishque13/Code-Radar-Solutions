@@ -8,9 +8,13 @@ int main(){
         scanf("%d",&arr[i]);
     } 
     
-    for(int i=1;i<arr[i];i++){
-        //max=arr[0];
-        printf("%d",arr[0]);
+    for(int i=1;i<n;i++){
+        int max =arr[0];
+        if(arr[i]>max){
+            printf("%d",arr[i]);
+        }else{
+            printf("-1");
+        }
 
 
     
