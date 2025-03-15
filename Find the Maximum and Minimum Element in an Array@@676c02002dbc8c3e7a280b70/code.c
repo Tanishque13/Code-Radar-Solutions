@@ -21,8 +21,8 @@ int main(){
             
         }
     }
-    printf("%d",arr[i]);
-    printf("%d",arr[i]);
+    printf("%d",min);
+    printf("%d",max);
 
 
 }
