@@ -13,15 +13,16 @@ int main(){
         
         if(arr[i]<min){
             min=arr[i];
-            printf("%d",arr[i]);
+            
 
         }
         if(arr[i]>max){
             max=arr[i];
-            printf("%d",arr[i]);
+            
         }
     }
-    
+    printf("%d",arr[i]);
+    printf("%d",arr[i]);
 
 
 }
