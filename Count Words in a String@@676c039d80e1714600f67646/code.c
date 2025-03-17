@@ -6,7 +6,7 @@ int main(){
     scanf("%s",&str);
     
     int length=strlen(str);
-    count=0;
+    int count=0;
     if(i==" "){
         count++;
         printf("%d",count);
