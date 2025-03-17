@@ -8,8 +8,8 @@ int main(){
         scanf("%d",arr[i]);
 
     }
-    count1=0;
-    count2=0;
+    int count1=0;
+    int count2=0;
     for(int j=0;j<n;j++){
         if(arr[i]%2==0){
             printf("%d",count1++);
