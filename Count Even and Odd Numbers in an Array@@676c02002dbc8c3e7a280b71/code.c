@@ -22,7 +22,7 @@ int main(){
 
 
     }
-    printf("%d",count1);
+    printf("%d ",count1);
     printf("%d",count2);
     
 }
