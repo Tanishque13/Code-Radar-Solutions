@@ -1,20 +1,30 @@
 // Your code here...
-#include<stdio.h>
-#include<string.h>
-int main(){
-    char str1[100];
-    char str2[100];
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str[100];
+    int flag = 1;  
+
+    printf("Enter a string: ");
+    scanf("%s", str);
+
+    int length = strlen(str);
+
     
-    scanf("%s",&str1);
-    int length=strlen(str1);
-    for(int i=length-1;i>=0;i--){
-        str2[100]=str1[i];
-        if(str2==str1){
-            printf("Yes");
-        }else{
-            printf("No");
+    for (int i = 0; i < length / 2; i++) {
+        if (str[i] != str[length - 1 - i]) {
+            flag = 0;  /
+            break;
         }
-        
     }
 
+    
+    if (flag) {
+        printf("Yes\n");  
+    } else {
+        printf("No\n");  
+    }
+
+    return 0;
 }
