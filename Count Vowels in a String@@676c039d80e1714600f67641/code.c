@@ -9,7 +9,7 @@ int main(){
     for(int t=0;t<length;t++){
         char i=str[t];
         if(i=='a'||i=='e'||i=='o'||i=='u'||i=='i'||i=='A'||i=='E'||i=='I'||i=='O'||i=='U'){
-            count+=1;
+            count++;
             
         }
         printf("%d",count);
