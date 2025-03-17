@@ -8,7 +8,7 @@ int main(){
     scanf("%s",&str1);
     int length=strlen(str1);
     for(int i=length-1;i>=0;i--){
-        str2[i]=str1[i];
+        str2[100]=str1[i];
         if(str2==str1){
             printf("Yes");
         }else{
