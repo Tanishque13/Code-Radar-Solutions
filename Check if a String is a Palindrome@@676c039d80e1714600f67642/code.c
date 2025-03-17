@@ -12,7 +12,7 @@ int main(){
         if(str==str2){
             printf("Yes");
         }else{
-            printf("No")
+            printf("No");
         }
     }
 }
