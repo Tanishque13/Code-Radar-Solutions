@@ -3,11 +3,13 @@
 #include<string.h>
 int main(){
     char str[100];
+    char str2[100];
+    strcpy(str2,str);
     scanf("%s",&str);
-    char orig[100]=str;
+    
     int length=strlen(str);
     fir(int i=length-1;i>=0;i--){
-        if(str==orig){
+        if(str==str2){
             printf("Yes");
         }else{
             printf("No")
