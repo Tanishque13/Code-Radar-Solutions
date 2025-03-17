@@ -6,7 +6,7 @@ int main(){
     fgets(str, sizeof(str), stdin);
     
     int length=strlen(str);
-    int count=0;
+    int count=1;
     for(int i=0;i<length;i++){
         if(str[i]==' '){
             count++;
