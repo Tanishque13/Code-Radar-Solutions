@@ -14,5 +14,5 @@ int main(){
             count++;
         }
     }
-    printf("%d %d",i+1,arr[i]);
+    printf("%d %d",arr[i],count);
 }
