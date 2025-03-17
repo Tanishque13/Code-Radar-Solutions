@@ -10,7 +10,8 @@ int main(){
         
         if(i=='a'||i=='e'||i=='o'||i=='u'||i=='i'||i=='A'||i=='E'||i=='I'||i=='O'||i=='U'){
             count+=1;
+            printf("%d",count);
         }
-        printf("%d",count);
+        
     }
 }
