@@ -14,7 +14,7 @@ int main() {
     
     for (int i = 0; i < length / 2; i++) {
         if (str[i] != str[length - 1 - i]) {
-            flag = 0;  /
+            flag = 0;  
             break;
         }
     }
