@@ -4,9 +4,10 @@
 int main(){
     char str[100];
     char str2[100];
+    str2[100]=str[100];
     
     scanf("%s",&str);
-    strcpy(str2,str);
+    
     
     int length=strlen(str);
     for(int i=length-1;i>=0;i--){
