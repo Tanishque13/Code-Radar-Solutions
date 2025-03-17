@@ -11,7 +11,7 @@ int main(){
     int count1=0;
     int count2=0;
     for(int j=0;j<n;j++){
-        if(arr[i]%2==0){
+        if(arr[j]%2==0){
             printf("%d",count1++);
 
         }else{
