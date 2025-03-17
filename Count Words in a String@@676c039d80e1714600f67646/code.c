@@ -7,10 +7,15 @@ int main(){
     
     int length=strlen(str);
     int count=0;
-    if(i==" "){
-        count++;
-        printf("%d",count);
+    for(int i=0;i<length;i++){
+        if(i==" "){
+            count++;
+            
+        }
+
     }
+    printf("%d",count);
+    
 
     
 
