@@ -7,7 +7,7 @@ int main(){
     for(int i=1;i<=n;i++){
         scanf("%d",&arr[i]);
 
-    }
+    
     int count1=0;
     int count2=0;
     for(int j=1;j<=n;j++){
@@ -17,5 +17,6 @@ int main(){
         }else{
             printf("%d",count2++);
         }
+    }
     }
 }
