@@ -6,7 +6,7 @@ int main(){
     scanf("%c",&str);
     int length=strlen(str);
     int count=0;
-    for(int i=0;i<=length;i++){
+    for(int i=0;i<=length-1;i++){
         if(i=='a'||i=='e'||i=='o'||i=='u'||i=='i'||i=='A'||i=='E'||i=='I'||i=='O'||i=='U'){
             count+=1;
         }
