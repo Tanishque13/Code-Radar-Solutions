@@ -3,15 +3,16 @@
 #include<string.h>
 int main(){
     char str[100];
-    scanf("%c",&str);
+    scanf("%s",&str);
     int length=strlen(str);
     int count=0;
-    for(int i=0;i<length;i++){
-        
+    for(int t=0;t<length;t++){
+        char i=str[t];
         if(i=='a'||i=='e'||i=='o'||i=='u'||i=='i'||i=='A'||i=='E'||i=='I'||i=='O'||i=='U'){
             count+=1;
-            printf("%d",count);
+            
         }
+        printf("%d",count);
         
     }
 }
