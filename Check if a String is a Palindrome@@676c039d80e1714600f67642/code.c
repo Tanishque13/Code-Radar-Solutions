@@ -4,8 +4,9 @@
 int main(){
     char str[100];
     char str2[100];
-    strcpy(str2,str);
+    
     scanf("%s",&str);
+    strcpy(str2,str);
     
     int length=strlen(str);
     for(int i=length-1;i>=0;i--){
