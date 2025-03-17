@@ -4,10 +4,11 @@
 int main(){
     char str1[100];
     char str2[100];
-    strcpy(str2,str1);
+    
     scanf("%s",&str1);
     int length=strlen(str1);
     for(int i=length-1;i>=0;i--){
+        str2[i]=str1[i];
         if(str2==str1){
             printf("Yes");
         }else{
