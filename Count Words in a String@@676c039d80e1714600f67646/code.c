@@ -5,7 +5,7 @@ int main(){
     char str[100];
     scanf("%s",&str);
     
-    int length=strlen(str)
+    int length=strlen(str);
     count=0;
     if(i==" "){
         count++;
