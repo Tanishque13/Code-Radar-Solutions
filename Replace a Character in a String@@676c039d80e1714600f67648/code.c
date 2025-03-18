@@ -9,9 +9,11 @@ int main(){
     scanf("%c",&x);
     scanf("%c",&y);
     for(int i=0;str[i]!='\0';i++){
-        str[strcspn(str,'x')]='y';
-        printf("%s",str);
+        if(str[i]==x){
+            str[i]=y;
+        }
 
     }
+    printf("%s",str);
     
 }
