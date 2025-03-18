@@ -3,7 +3,7 @@
 #include<string.h>
 int main(){
     char str[100];
-    isbinar=1;
+    int isbinar=1;
     fgets(str,sizeof(str),stdin);
     for(int i=0;str[i]!='\0';i++){
         if(str[i]!='0'||str[i!='1']){
