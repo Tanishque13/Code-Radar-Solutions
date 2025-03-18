@@ -17,6 +17,7 @@ int main(){
     }
     newstr[j]='\0';
     int length1=strlen(newstr);
+    int ispal=1;
     for(int i=0;i<length1/2;i++){
         if(str[i]!=str[length1-1-i]){
             ispal=0;
