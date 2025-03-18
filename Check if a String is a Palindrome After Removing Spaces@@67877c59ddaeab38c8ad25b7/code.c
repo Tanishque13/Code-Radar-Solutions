@@ -7,7 +7,7 @@ int main(){
     fgets(str,sizeof(str),stdin);
     int length=strlen(str);
     
-    int ispal=1;
+    
     int j;
     for(int i=0;str[i]!='\0';i++){
         if(str[i]!=' '){
