@@ -3,8 +3,9 @@
 #include<string.h>
 int main(){
     char str[100];
+    int i;
     fgets(str,sizeof(str),stdin);
-    for(int i=0;str[i]!='\0';i++){
+    for(str[i]!='\0';i>0;i--){
         printf("%s",str);
     }
 }
