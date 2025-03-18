@@ -7,7 +7,7 @@ int main(){
     fgets(str,sizeof(str),stdin);
     str[strcspn(str, "\n")] = '\0';
     for(int i=0;str[i]!='\0';i++){
-        if(str[i]!='0'||str[i!='1']){
+        if(str[i]!='0'&& str[i!='1']){
             isbinar=0;
             break;
         }
