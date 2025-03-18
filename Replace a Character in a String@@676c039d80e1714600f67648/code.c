@@ -8,6 +8,10 @@ int main(){
     char x,y;
     scanf("%c",&x);
     scanf("%c",&y);
-    str[strcspn(str,'x')]='y';
-    printf("%s",str);
+    for(int i=0;str[i]!='\0';i++){
+        str[strcspn(str,'x')]='y';
+        printf("%s",str);
+
+    }
+    
 }
