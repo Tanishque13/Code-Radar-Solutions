@@ -12,11 +12,11 @@ int main(){
         count1++;
         for(int j=0;str2[j]!='\0';j++){
             count2++;
-            if(count1==count2){
-                printf("Yes");
-            }else{
-                printf("No");
-            }
-        }
+    if(count1==count2){
+        printf("Yes");
+    }else{
+        printf("No");
+    }
+    }
     }
 }
