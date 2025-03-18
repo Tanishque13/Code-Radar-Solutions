@@ -4,6 +4,8 @@
 int main(){
     char str[100];
     fgets(str,sizeof(str),stdin);
+    int length=strlen(str);
+    
     //ispal=1;
     int j;
     for(int i=0;str[i]!='\0';i++){
@@ -13,5 +15,15 @@ int main(){
         }
     }
     str[j]='\0';
-    printf("%s",str);
+    for(int i=0;i<length/2;i++){
+        if(str[i]!=str[length-1-i]){
+            ispal=0;
+            break;
+        }
+    }
+    if(ispal){
+        printf("Yes");
+    }else{
+        printf("No");
+    }
 }
