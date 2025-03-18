@@ -8,11 +8,14 @@ int main(){
     fgets(str,sizeof(str),stdin);
     int j=0;
     for(int i=0;str[i]!='\0';i++){
-        if(str[i]>'a' && str[i]<'z'){
-            str[j++]=toupper(str[i]);
-        }else if(str[i]>'A' && str[i]<'Z'){
-            str[j++]=tolower(str[i]);
+        if(str[i]>='a' && str[i]<='z'){
+            str2[j++]=toupper(str[i]);
+        }else if(str[i]>='A' && str[i]<='Z'){
+            str2[j++]=tolower(str[i]);
+        } else {
+            str2[j++] = str[i];  // Keep other characters unchanged
         }
     }
+    str2[j]='\0';
     printf("%s",str);
 }
