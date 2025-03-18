@@ -7,6 +7,6 @@ int main(){
     fgets(str,sizeof(str),stdin);
     scanf("%c",&x);
     scanf("%c",&y);
-    str[strcspn(str,"x")]="y";
+    str[strcspn(str,'x')]='y';
     printf("%s",str);
 }
