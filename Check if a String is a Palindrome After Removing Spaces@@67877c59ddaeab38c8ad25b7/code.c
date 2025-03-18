@@ -15,8 +15,9 @@ int main(){
         }
     }
     str[j]='\0';
-    for(int i=0;i<length/2;i++){
-        if(str[i]!=str[length-1-i]){
+    int length1=strlen(j);
+    for(int i=0;i<length1/2;i++){
+        if(str[i]!=str[length1-1-i]){
             ispal=0;
             break;
         }
