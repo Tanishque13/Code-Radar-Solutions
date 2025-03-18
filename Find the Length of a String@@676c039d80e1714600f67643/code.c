@@ -3,7 +3,11 @@
 #include<string.h>
 int main(){
     char str[100];
-    scanf("%d",&str);
-    int length=strlen(str);
-    printf("%d",length);
+    fgets(str,sizeof(str),stdin);
+    int count=0;
+    for(int i=0;str[i]!='\0';i++){
+        count++;
+
+    }
+    printf("%d",count);
 }
