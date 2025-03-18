@@ -10,7 +10,7 @@ int main(){
     for(int i=0;str[i]!='\0';i++){
         if(str[i]>'a' && str[i]<'z'){
             str[j++]=tolower(str[i]);
-        }else{
+        }elif(str[i]>'A' && str[i]<'Z'){
             str[j++]=toupper(str[i]);
         }
     }
