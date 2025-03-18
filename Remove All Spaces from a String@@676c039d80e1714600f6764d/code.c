@@ -4,11 +4,12 @@
 int main(){
     char str[100];
     fgets(str,sizeof(str),stdin);
-    //str[strcspn(str, " ")] = '\0';
     for(int i=0;str[i]!='\0';i++){
-        if(str[i]==' '){
-            strcat(str,str[i]);
-        }
+        str[strcspn(str, " ")] = str[i];
+
+
     }
     printf("%s",str);
+    
+    
 }
