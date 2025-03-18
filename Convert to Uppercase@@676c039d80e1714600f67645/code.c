@@ -14,6 +14,6 @@ int main(){
 
         }
     }
-    newstr[j]='\0';
+    //newstr[j]='\0';
     printf("%s\n",newstr);
 }
