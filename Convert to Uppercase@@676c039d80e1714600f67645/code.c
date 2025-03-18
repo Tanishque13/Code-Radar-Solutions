@@ -15,5 +15,5 @@ int main(){
         }
     }
     newstr[j]='\0';
-    printf("\n%s",newstr);
+    printf("%s\n",newstr);
 }
