@@ -8,7 +8,7 @@ int main(){
     int length=strlen(str);
     
     
-    int j;
+    int j=0;
     for(int i=0;str[i]!='\0';i++){
         if(str[i]!=' '){
             newstr[j++]=str[i];
@@ -19,7 +19,7 @@ int main(){
     int length1=strlen(newstr);
     int ispal=1;
     for(int i=0;i<length1/2;i++){
-        if(str[i]!=str[length1-1-i]){
+        if(newstr[i]!=newstr[length1-1-i]){
             ispal=0;
             break;
         }
