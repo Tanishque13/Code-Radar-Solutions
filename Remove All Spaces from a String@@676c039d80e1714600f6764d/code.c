@@ -7,7 +7,7 @@ int main(){
     //str[strcspn(str, " ")] = '\0';
     for(int i=0;str[i]!='\0';i++){
         if(str[i]==' '){
-            strcat(str1,str1[i]);
+            strcat(str,str[i]);
         }
     }
     printf("%s",str);
