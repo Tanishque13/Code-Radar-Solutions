@@ -4,7 +4,7 @@
 int main(){
     char str[100];
     fgets(str,sizeof(str),stdin);
-    for(int str[i]!='\0';i>0;i--){
+    for(int i=0;str[i]!='\0';i++){
         printf("%s",str);
     }
 }
