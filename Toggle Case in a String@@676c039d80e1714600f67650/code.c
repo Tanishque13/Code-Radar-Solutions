@@ -9,9 +9,9 @@ int main(){
     int j=0;
     for(int i=0;str[i]!='\0';i++){
         if(str[i]>'a' && str[i]<'z'){
-            str[j++]=tolower(str[i]);
-        }elif(str[i]>'A' && str[i]<'Z'){
             str[j++]=toupper(str[i]);
+        }else if(str[i]>'A' && str[i]<'Z'){
+            str[j++]=tolower(str[i]);
         }
     }
     printf("%s",str);
