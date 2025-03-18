@@ -3,12 +3,18 @@
 #include<string.h>
 int main(){
     char str[100];
+    isbinar=1;
     fgets(str,sizeof(str),stdin);
     for(int i=0;str[i]!='\0';i++){
-        if(i=='0'||i=='1'){
-            printf("Yes");
-        }else{
-            printf("No");
+        if(str[i]!='0'||str[i!='1']){
+            isbinar=0;
+            break;
         }
+            
+    }
+    if(isbinar){
+        printf("Yes");
+    }else{
+        printf("No");
     }
 }
