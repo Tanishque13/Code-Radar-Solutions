@@ -9,7 +9,7 @@ int main(){
     
     int j=0;
     for(int i=0;str[i]!='\0';i++){
-        if(str[i]>='a' && str[i]<='z'){
+        if (isalpha(str[i])) { 
             newstr[j++]=toupper(str[i]);
 
         }
