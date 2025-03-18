@@ -4,6 +4,6 @@
 int main(){
     char str[100];
     fgets(str,sizeof(str),stdin);
-    str[strcspn(str, "\n")] = '\0';
+    str[strcspn(str, " ")] = '\0';
     printf("%s",str);
 }
