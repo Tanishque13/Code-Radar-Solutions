@@ -1,6 +1,7 @@
 // Your code here...
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
 int main() {
     char str[100], newstr[100];
