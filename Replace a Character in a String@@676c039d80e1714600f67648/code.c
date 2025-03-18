@@ -6,8 +6,8 @@ int main(){
     
     fgets(str,sizeof(str),stdin);
     char x,y;
-    scanf(" %c",&x);
-    scanf(" %c",&y);
+    scanf("%c",&x);
+    scanf("%c",&y);
     for(int i=0;str[i]!='\0';i++){
         if(str[i]==x){
             str[i]=y;
