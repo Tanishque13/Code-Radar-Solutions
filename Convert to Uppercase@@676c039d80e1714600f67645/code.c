@@ -9,7 +9,7 @@ int main(){
     fgets(newstr,sizeof(newstr),stdin);
     int j=0;
     for(int i=0;str[i]!='\0';i++){
-        if(str[i]>='a' && str[i<='z']){
+        if(str[i]>='a' && str[i]<='z'){
             newstr[j++]=toupper(str[i]);
 
         }
