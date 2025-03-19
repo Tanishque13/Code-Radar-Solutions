@@ -14,7 +14,7 @@ int main(){
             issorted=0;
         
     }
-    if(issoretd){
+    if(issorted){
         printf("Sorted");
     }else{
         printf("Not Sorted");
