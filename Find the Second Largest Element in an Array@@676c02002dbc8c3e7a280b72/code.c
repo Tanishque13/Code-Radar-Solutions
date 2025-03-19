@@ -11,10 +11,10 @@ int main(){
     for(int i=1;i<n;i++){
         if(arr[i]>max){
             max=arr[i];
-            printf("%d",max);
+           
            
         }
     }
-    //printf("-1");
+    printf("%d",max);
     
 }
