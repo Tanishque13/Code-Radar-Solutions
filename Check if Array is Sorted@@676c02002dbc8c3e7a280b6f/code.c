@@ -8,12 +8,13 @@ int main(){
     int issorted=1;
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
+    }
     
         max=arr[0];
         if(arr[i]>max){
             issorted=0;
         
-    }
+    
     if(issorted){
         printf("Sorted");
     }else{
