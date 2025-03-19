@@ -14,8 +14,10 @@ int main(){
     
     for(i=n;i>0;i--){
         int krr[100]=arr[i];
-        if(krr[100]==arr[i]){
-            ispalind =1;
+        for(int i=0;i<n;i++){
+            if(krr[i]==arr[i]){
+                ispalind=1;
+            }
         }
         
     }
