@@ -4,13 +4,13 @@ int main(){
     int n,i,j;
     scanf("%d",&n);
     int arr[n];
-    int count=1;
+    
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
 
     }
     for(i=0;i<n;i++){
-        
+        int count=1;
         if(arr[i]==-1){
             continue;
         }
