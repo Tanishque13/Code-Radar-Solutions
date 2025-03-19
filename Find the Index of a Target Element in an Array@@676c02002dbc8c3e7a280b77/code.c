@@ -10,10 +10,10 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    scanf("%d",&num);
     for(i=0;i<n;i++){
         if(arr[i]==num){
             printf("%d",i);
-            found=1;
             return 0;
 
         }
