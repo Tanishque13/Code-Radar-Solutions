@@ -12,6 +12,7 @@ int main(){
     for(i=0;i<n;i++){
         if(arr[i]==num){
             printf("%d",i);
+            found=1;
             return 0;
 
         }
