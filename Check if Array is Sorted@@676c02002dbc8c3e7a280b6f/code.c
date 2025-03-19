@@ -11,7 +11,7 @@ int main(){
     
         max=arr[0];
         if(arr[i]>max){
-            issorted=0
+            issorted=0;
         
     }
     if(issoretd){
