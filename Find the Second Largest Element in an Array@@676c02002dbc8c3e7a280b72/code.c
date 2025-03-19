@@ -1,31 +1,28 @@
 // Your code here...
-#include<stdio.h>
-int main(){
-    int i,n;
-    scanf("%d",&n);
-    int arr[n];
-    for(i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-    int max1=arr[0],max2=-1;
-    for(int i=0;i<n;i++){
-        if(arr[i]>max1){
-            max1=arr[i];
-           
-           
-        }
-    }
-    for(int i=0;i<n;i++){
-        if(arr[i]<max1 && arr[i]>max2){
-            max2=arr[i];
-            
-        }
-    }if(max2==-1){
-        printf("-1");
+#include <stdio.h>
 
-    }else{
-        printf("%d",max2);
+
+int bubbleSort(int arr[], int n)
+{
+        for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<n-i-1;j++)
+        {
+            if (arr[j]>arr[j+1])
+            {
+                int t1;
+                t1=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=t1;
+            }
+        }
     }
-    
-    
+}
+
+void printArray(int arr[],int n)
+{
+        for(int k=0;k<n;k++)
+    {
+        printf("%d ",arr[n-1]);
+    }
 }
