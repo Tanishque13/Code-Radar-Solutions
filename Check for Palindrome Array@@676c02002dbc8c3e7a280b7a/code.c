@@ -6,10 +6,11 @@ int main(){
     scanf("%d",&n);
     int ispalind=0;
     int arr[n];
+    int arr[j];
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int arr[j];
+    
     for(j=n;j>0;j--){
         if(arr[i]==arr[j]){
             ispalind=0;
