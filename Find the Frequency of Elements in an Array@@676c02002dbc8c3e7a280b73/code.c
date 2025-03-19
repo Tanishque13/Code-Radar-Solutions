@@ -4,15 +4,22 @@ int main(){
     int n,i;
     scanf("%d",&n);
     int arr[n];
-    for(i=1;i<=n;i++){
+    int krr[100]={0};
+    for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
 
     }
-    int count=0;
-    for(int i=0;i<=n;i++){
-        if(arr[i] ==arr[i]){
+    int count[j]=0;
+    for(j=0;j<n;j++){
+        if(arr[i]==arr[j]){
             count++;
+            count[j]=1;
         }
+        printf("%d %d",arr[i],count);
     }
-    printf("%d %d\n",arr[i],count);
+
+
+
+
+    
 }
