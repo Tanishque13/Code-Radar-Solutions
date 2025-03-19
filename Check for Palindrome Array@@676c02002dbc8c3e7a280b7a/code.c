@@ -1,29 +1,29 @@
 // Your code here...
-#include<stdio.h>
-#include<string.h>
-int main(){
-    int i,n;
-    scanf("%d",&n);
-    int ispalind=0;
-    int arr[n];
-    int krr[100];
-  
-    for(i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-    for(int j=0;j>n;j--){
-        int krr[j];
-        for(int j=0;j<n;j++){
-            if(krr[j]==arr[i]){
-                ispalind=1;
-            }
-        }
-        
-    }
-    if(ispalind){
-        printf("NO");
-    }else{
-        printf("YES");
-    }
+#include <stdio.h>
+
+int main() {
+    int n, i, ispalind = 1;
+    scanf("%d", &n);
     
+    int arr[n];
+    
+    for (i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    
+    for (i = 0; i < n / 2; i++) {  
+        if (arr[i] != arr[n - 1 - i]) {
+            ispalind = 0;  
+            break;  
+        }
+    }
+
+    if (ispalind) {
+        printf("YES");  
+    } else {
+        printf("NO");   
+    }
+
+    return 0;
 }
