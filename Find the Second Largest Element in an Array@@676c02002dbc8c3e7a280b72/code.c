@@ -15,6 +15,10 @@ int main(){
            
         }
     }
+    for(int i=0;i<n;i++){
+        if(arr[i]>arr[0] && arr[i]<max){
+            max=arr[i];
+        }
+    }
     printf("%d",max);
-    
 }
