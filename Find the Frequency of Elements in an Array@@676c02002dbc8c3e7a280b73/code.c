@@ -19,16 +19,13 @@ int main(){
         if(arr[i]==arr[j]){
             count++;
             arr[j]=-1;
-            
-            
-        
         }
     }
-    }
+    
     printf("%d %d",arr[i],count);
     
 
-
+}
 
 
     
