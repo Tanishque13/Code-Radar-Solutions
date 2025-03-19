@@ -12,7 +12,9 @@ int main(){
     for(i=0;i<n;i++){
         if(arr[i]!=0){
             printf("%d ",arr[i]);
-
+        else{
+            printf("%d",i=arr[i]);
+        }
        
     }
 }
