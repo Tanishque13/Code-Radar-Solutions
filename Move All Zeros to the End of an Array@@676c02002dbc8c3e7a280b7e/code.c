@@ -3,7 +3,7 @@
 #include<string.h>
 int main(){
     int i,n;
-    krr[100];
+    
     scanf("%d",&n);
     int arr[n];
     for(i=0;i<n;i++){
@@ -15,4 +15,5 @@ int main(){
 
        
     }
+}
 }
