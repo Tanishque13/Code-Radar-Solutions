@@ -20,5 +20,10 @@ int main(){
         }
         
     }
+    if(ispalind){
+        printf("NO");
+    }else{
+        printf("YES");
+    }
     
 }
