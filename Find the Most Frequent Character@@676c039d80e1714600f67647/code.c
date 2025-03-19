@@ -17,5 +17,5 @@ int main(){
         
 
     }
-    printf("%s",str);
+    printf("%s",str[j]);
 }
