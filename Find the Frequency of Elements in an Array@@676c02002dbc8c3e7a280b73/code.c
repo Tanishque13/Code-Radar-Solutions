@@ -9,17 +9,18 @@ int main(){
         scanf("%d",&arr[i]);
 
     }
-    int count[j]=0;
-    for(j=0;j<n;j++){
+    int j;
+    for(j=1;j<n;j++){
         if(arr[i]==arr[j]){
             count++;
-            count[j]=1;
+        
         }
-        printf("%d %d",arr[i],count);
+    }
+    
     }
 
 
 
 
     
-}
+
