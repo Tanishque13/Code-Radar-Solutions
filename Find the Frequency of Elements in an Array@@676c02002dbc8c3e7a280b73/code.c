@@ -15,14 +15,14 @@ int main(){
             continue;
         }
     
-    for(j=0;j<n;j++){
-        if(arr[i]==arr[j]){
-            count++;
-            arr[j]=-1;
+        for(j=0;j<n;j++){
+            if(arr[i]==arr[j]){
+                count++;
+                arr[j]=-1;
+            }
         }
-    }
     
-    printf("%d %d",arr[i],count);
+        printf("%d %d",arr[i],count);
     
 
     }
