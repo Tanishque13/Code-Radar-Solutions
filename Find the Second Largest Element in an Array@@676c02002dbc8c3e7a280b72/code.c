@@ -23,6 +23,6 @@ void printArray(int arr[],int n)
 {
         for(int k=0;k<n;k++)
     {
-        printf("%d ",arr[n-1]);
+        printf("%d ",arr[n-i]);
     }
 }
