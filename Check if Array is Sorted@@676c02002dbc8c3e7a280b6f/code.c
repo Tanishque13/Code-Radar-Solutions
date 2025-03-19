@@ -7,10 +7,9 @@ int main(){
     int arr[n];
     int issorted=0;
     for(int i=0;i<n;i++){
-        if(arr[i]<arr[i+1] && arr[i]==arr[i+1]){
+        if(arr[i]<arr[i+1] || arr[i]==arr[i+1]){
             issorted=1;
-        
-        
+        }
     }
     if(issorted){
         printf("Not Sorted");
@@ -18,5 +17,4 @@ int main(){
         printf("Sorted");
     }
 
-}
 }
