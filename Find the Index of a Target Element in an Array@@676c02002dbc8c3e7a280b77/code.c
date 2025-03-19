@@ -10,5 +10,7 @@ int main(){
     }
     if(num){
         printf("%d",i);
+    }else{
+        printf("-1");
     }
 }
