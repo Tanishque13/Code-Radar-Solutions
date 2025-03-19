@@ -6,14 +6,16 @@ int main(){
     scanf("%d",&n);
     int ispalind=0;
     int arr[n];
-    int arr[j];
+    int krr[x];
+  
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     
-    for(j=n;j>0;j--){
-        if(arr[i]==arr[j]){
-            ispalind=0;
+    for(i=n;i>0;i--){
+        int arr[x]=arr[i];
+        if(arr[x]==arr[i]){
+            ispalind =1;
         }
         
     }
