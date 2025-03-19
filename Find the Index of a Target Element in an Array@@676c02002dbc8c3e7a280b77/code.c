@@ -11,6 +11,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&num);
+    int found=-1;
     for(i=0;i<n;i++){
         if(arr[i]==num){
             printf("%d",i);
