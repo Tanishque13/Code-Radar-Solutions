@@ -13,7 +13,7 @@ int main(){
     }
     
     for(i=n;i>0;i--){
-        int arr[x]=arr[i];
+        int krr[100]=arr[i];
         if(krr[100]==arr[i]){
             ispalind =1;
         }
