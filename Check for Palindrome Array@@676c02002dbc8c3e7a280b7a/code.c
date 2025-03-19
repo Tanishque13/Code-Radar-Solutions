@@ -12,7 +12,7 @@ int main(){
     int j;
     for(j=n;j>0;j--){
         if(arr[i]!=arr[j]){
-            ispalind=1;
+            ispalind=0;
         }
         
     }
