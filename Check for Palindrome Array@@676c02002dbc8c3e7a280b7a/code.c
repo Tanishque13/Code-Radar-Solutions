@@ -11,19 +11,14 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    
-    for(i=n;i>0;i--){
-        int krr[100]=arr[i];
-        for(int i=0;i<n;i++){
-            if(krr[i]==arr[i]){
+    for(int j=0;j>n;j--){
+        int krr[j];
+        for(int j=0;j<n;j++){
+            if(krr[j]==arr[i]){
                 ispalind=1;
             }
         }
         
     }
-    if(ispalind){
-        printf("NO");
-    }else{
-        printf("YES");
-    }
+    
 }
