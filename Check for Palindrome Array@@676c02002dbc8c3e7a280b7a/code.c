@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&n);
     int ispalind=0;
     int arr[n];
-    int krr[x];
+    int krr[100];
   
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
@@ -14,7 +14,7 @@ int main(){
     
     for(i=n;i>0;i--){
         int arr[x]=arr[i];
-        if(arr[x]==arr[i]){
+        if(krr[100]==arr[i]){
             ispalind =1;
         }
         
