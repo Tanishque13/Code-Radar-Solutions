@@ -9,7 +9,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int j;
+    int arr[j];
     for(j=n;j>0;j--){
         if(arr[i]==arr[j]){
             ispalind=0;
