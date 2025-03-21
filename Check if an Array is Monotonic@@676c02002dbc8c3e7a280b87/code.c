@@ -21,6 +21,9 @@ int main() {
             decreasing = 0;  // Not strictly decreasing
             break;
         }
+        if(arr[i]==arr[i+1]){
+            increasing=0;
+        }
     }
 
     if (increasing || decreasing) {
