@@ -25,12 +25,13 @@ int main(){
 
         }
     }
-        if(freq[greater]>1){
-            printf("%d",greater);
+    int maxFreq = freq[greater];  
 
-        }else{
-            printf("-1");
-        }
+    if (maxFreq > 1) {
+        printf("%d", greater);
+    } else {
+        printf("-1");
+    }
 }
     
 
