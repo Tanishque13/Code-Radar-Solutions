@@ -11,12 +11,16 @@ int main(){
 
     }
     int greater=arr[0];
+
     for(i=0;i<n;i++){
         if(freq[arr[i]]!=0){
             if(freq[arr[i]]>=freq[greater]){
                 greater=arr[i];
+                
+
+
             }
-            freq[arr[i]]=0;
+            //freq[arr[i]]=0;
             
 
         }
