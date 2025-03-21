@@ -10,8 +10,13 @@ int main(){
     for(i=0;i<n-1;i++){
         int num=arr[i];
         int sum=0;
-        sum=sum+num%10;
-        num=num/10;
+        while(num>0){
+            
+            sum=sum+num%10;
+            num=num/10;
+
+        }
+        
 
     }
     printf("%d",sum);
