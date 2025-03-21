@@ -14,6 +14,7 @@ int main() {
 
     int greater = arr[0];  // Assume first number is the most frequent
     int maxFreq = freq[arr[0]];  // Store its frequency
+    int freqCheck[1000] = {0};  // To check if any frequency appears more than once
 
     // Find the number with the highest frequency
     for (i = 0; i < n; i++) {
@@ -23,20 +24,19 @@ int main() {
         }
     }
 
-    // Check if there are multiple numbers with the same max frequency
-    int countMax = 0;
+    // Check if any frequency value appears more than once
     for (i = 0; i < 1000; i++) {
-        if (freq[i] == maxFreq) {
-            countMax++;
+        if (freq[i] > 0) {
+            freqCheck[freq[i]]++;  
+            if (freqCheck[freq[i]] > 1) {
+                printf("-1");
+                return 0;
+            }
         }
     }
 
-    // If more than one number has the highest frequency, return -1
-    if (countMax > 1) {
-        printf("-1");
-    } else {
-        printf("%d", greater);
-    }
-
+    // If no two numbers have the same frequency, print the most frequent number
+    printf("%d", greater);
+    
     return 0;
 }
