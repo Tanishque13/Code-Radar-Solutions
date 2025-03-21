@@ -16,9 +16,7 @@ int main(){
                 arr[j+1]=temp;
                
             }
-            else{
-                printf("-1");
-            }
+            
         }
     }
 
