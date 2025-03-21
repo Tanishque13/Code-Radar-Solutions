@@ -17,9 +17,6 @@ int main(){
 
         }
     }
-    if(){
-        printf("%d",count);
-
-    }
+    printf("%d",count);
     
 }
