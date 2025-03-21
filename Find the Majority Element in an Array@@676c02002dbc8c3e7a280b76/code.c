@@ -10,12 +10,18 @@ int main(){
         freq[arr[i]]++;
 
     }
+    int greater=-1;
     for(i=0;i<n;i++){
         if(freq[arr[i]]!=0){
-            printf("%d %d\n",arr[i],freq[arr[i]]);
+            if(greater<arr[i+1])
+            greater=arr[i+1];
             freq[arr[i]]=0;
+            printf("%d",arr[i]);
+            return 0;
 
         }
     }
+    printf("-1");
+
 
 }
