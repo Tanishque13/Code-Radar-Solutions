@@ -10,7 +10,7 @@ int main(){
         freq[arr[i]]++;
 
     }
-    int greater=-1;
+    int greater=arr[0];
     for(i=0;i<n;i++){
         if(freq[arr[i]]!=0){
             if(greater<freq[arr[i+1]] || greater==freq[arr[i+1]]){
