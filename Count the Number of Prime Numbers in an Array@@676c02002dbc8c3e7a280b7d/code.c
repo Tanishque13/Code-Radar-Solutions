@@ -9,8 +9,8 @@ int main(){
         scanf("%d",&arr[i]);
     }
     
-    for(i=2;i<n;i++){
-        if(arr[i]%i!=0){
+    for(i=0;i<n;i++){
+        if(arr[i]%n!=0){
             count++;
         }
     }
