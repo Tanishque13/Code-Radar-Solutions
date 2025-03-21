@@ -20,7 +20,7 @@ int main(){
             
         }
     }
-    if(arr[n-2]>temp){
+    if(arr[n-2]>arr[n]){
         printf("%d",arr[n-2]);
     }else{
         printf("-1");
