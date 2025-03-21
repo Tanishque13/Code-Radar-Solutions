@@ -13,14 +13,18 @@ int main(){
     int greater=arr[0];
     for(i=0;i<n;i++){
         if(freq[arr[i]]!=0){
-            if(greater<freq[arr[i+1]] || greater==freq[arr[i+1]]){
-            greater=arr[i+1];
+            if(freq[arr[i]]>=freq[greater]){
+                greater=arr[i];
+            }
             freq[arr[i]]=0;
-            printf("%d",arr[i]);
-            return 0;
+            
 
         }
-        else{
+    }
+        if(freq[greater]>1){
+            printf("%d",greater);
+
+        }else{
             printf("-1");
         }
     }
