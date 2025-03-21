@@ -24,7 +24,7 @@ int main(){
         }
 
     }
-    int maxpProduct=arr[n-1]*arr[n-2];
+    int maxProduct = arr[n - 1] * arr[n - 2]; // Largest two numbers
     if (arr[0] * arr[1] > maxProduct) {
         maxProduct = arr[0] * arr[1]; // Smallest two numbers (negative case)
     }
