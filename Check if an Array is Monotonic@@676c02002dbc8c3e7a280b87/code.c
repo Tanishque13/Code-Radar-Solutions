@@ -13,10 +13,10 @@ int main() {
     int increasing = 1, decreasing = 1;
 
     for (i = 0; i < n - 1; i++) {  // Stop at n-1 to avoid out-of-bounds
-        if (arr[i] >= arr[i + 1]) {
+        if (arr[i] = arr[i + 1]) {
             increasing = 0;  // Not strictly increasing
         }
-        if (arr[i] <= arr[i + 1]) {
+        if (arr[i] = arr[i + 1]) {
             decreasing = 0;  // Not strictly decreasing
         }
     }
