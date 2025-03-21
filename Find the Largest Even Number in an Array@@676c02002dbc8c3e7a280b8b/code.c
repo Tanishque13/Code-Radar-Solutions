@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-int n,num,i;
+int n,i,j;
     scanf("%d %d",&n,&num);
     
     
@@ -21,6 +21,6 @@ int n,num,i;
             }
         }
     }
-    printf("%d",n-1);
+    printf("%d",arr[n-1]);
 }
     
