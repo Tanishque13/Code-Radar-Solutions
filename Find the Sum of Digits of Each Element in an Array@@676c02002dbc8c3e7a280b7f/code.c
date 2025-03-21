@@ -3,7 +3,7 @@
 int main(){
     int n,isum=0;
     scanf("%d",&n);
-    arr[n];
+    int arr[n];
     for(i=0;i<n;i++){
         scanf("%d",&arr[n]);
     }
