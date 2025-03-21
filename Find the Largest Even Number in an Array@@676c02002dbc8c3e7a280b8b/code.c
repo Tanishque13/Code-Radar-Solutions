@@ -23,7 +23,7 @@ int n,i,j;
             }
         }
     }if(iseven){
-        printf("%d",arr[n-1]);
+        printf("%d",arr[n]);
 
     }else{
         printf("-1");
