@@ -15,9 +15,11 @@ int main() {
     for (i = 0; i < n - 1; i++) {  // Stop at n-1 to avoid out-of-bounds
         if (arr[i] = arr[i + 1]) {
             increasing = 0;  // Not strictly increasing
+            break;
         }
         if (arr[i] = arr[i + 1]) {
             decreasing = 0;  // Not strictly decreasing
+            break;
         }
     }
 
