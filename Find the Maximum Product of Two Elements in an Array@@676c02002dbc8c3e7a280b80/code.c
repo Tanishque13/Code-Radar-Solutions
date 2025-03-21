@@ -24,7 +24,7 @@ int main(){
         }
 
     }
-    printf("%d",arr[j]*arr[j-1]);
+    printf("%d",arr[n-1]*arr[n-2]);
     
 
 }
