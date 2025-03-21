@@ -18,5 +18,16 @@ int main(){
             
         }
     }
-    printf("%d",arr[1]);
+    int secondMin = -1;
+    for (i = 1; i < n; i++) {
+        if (arr[i] > arr[0]) { 
+            secondMin = arr[i];
+            break;
+        }
+    }
+
+    
+    printf("%d\n", secondMin);
+    return 0;
+
 }
