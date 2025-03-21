@@ -20,10 +20,10 @@ int main(){
             
         }
     }
-    if(swap){
-        printf("-1");
-    }else{
+    if(swap==1){
         printf("%d",arr[n-2]);
+    }else{
+        printf("-1");
     }
     
     
