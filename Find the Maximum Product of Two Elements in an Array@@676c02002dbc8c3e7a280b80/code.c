@@ -24,7 +24,15 @@ int main(){
         }
 
     }
-    printf("%d",arr[n-1]*arr[n-2]);
+    int maxpro=arr[n-1]*arr[n-2];
+    if (arr[0] * arr[1] > maxProduct) {
+        maxProduct = arr[0] * arr[1]; // Smallest two numbers (negative case)
+    }
+
+    // Output the maximum product
+    printf("%d\n", maxProduct);
+
+    return 0;
     
     
 
