@@ -12,7 +12,7 @@ int main(){
 
     }
     for(i=0;i<n;i++){
-        if(freq[arr[i]!=0]){
+        if(freq[arr[i]]!=0){
             printf("%d %d\n",arr[i],freq[arr[i]]);
             freq[arr[i]]=0;
         }
