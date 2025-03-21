@@ -20,10 +20,10 @@ int main(){
             
         }
     }
-    if(arr[n-2]>arr[n]){
-        printf("%d",arr[n-2]);
+    if(arr[n-2]<arr[n]){
+        printf("-1")
     }else{
-        printf("-1");
+        printf("%d",arr[n-2]);
     }
 
     
