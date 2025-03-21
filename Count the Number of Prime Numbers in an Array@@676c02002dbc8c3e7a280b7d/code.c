@@ -9,16 +9,25 @@ int main(){
         scanf("%d",&arr[i]);
     }
     
-    for(i=1;i<n-1;i++){
-        if(arr[i]>1){
-            if(arr[i]%i!=0){
-            count++;
+    for(i=1;i<n;i++){
+        int isprime=1;
+        if(arr[i]<2){
+            isprime=0;
+        }else{
+            for(i=2;i*i<arr[i];i++){
+                if(arr[i]%i==0){
+                    isprime=0;
+                    break;
+                }
+            }
         }
-
+        if(isprime){
+            count++;
         }
         
     }
     printf("%d",count);
+    
 
     
 }
