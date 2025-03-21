@@ -3,29 +3,23 @@
 int main(){
     int n,i,j;
     scanf("%d",&n);
-    int arr[n];
+    int arr[n],freq[1000]={0};
     
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
+        freq[arr[i]]++;
+
 
     }
     for(i=0;i<n;i++){
-        int count=1;
-        if(arr[i]==-1){
-            continue;
+        if(freq[arr[i]!=0]){
+            printf("%d",arr[i],freq(arr[i]));
+            freq(arr[i]=0);
         }
-    
-        for(j=i+1;j<n;j++){
-            if(arr[i]==arr[j]){
-                count++;
-                arr[j]=-1;
-            }
-        }
-    
-        printf("%d %d\n",arr[i],count);
-    
-
     }
+    
+                
+            
 }
 
     
