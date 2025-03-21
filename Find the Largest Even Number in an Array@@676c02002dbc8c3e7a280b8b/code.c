@@ -25,7 +25,7 @@ int main() {
 
     // Find the largest even number after sorting
     int maxEven = -1;
-    for (i = n - 1; i >= 0; i--) {
+    for (i = n ; i >= 0; i--) {
         if (arr[i] % 2 == 0) {
             maxEven = arr[i];
             break;
