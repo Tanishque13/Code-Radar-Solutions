@@ -8,7 +8,10 @@ int main(){
         scanf("%d",&arr[n]);
     }
     for(i=0;i<n-1;i++){
-        sum=sum+arr[i]%10;
+        int num=arr[i];
+        sum=sum+num%10;
+        num=num/10;
+
     }
     printf("%d",sum);
 }
