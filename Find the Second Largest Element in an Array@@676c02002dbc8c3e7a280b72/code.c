@@ -21,7 +21,7 @@ int main(){
     if(swap){
         printf("-1");
     }else{
-        printf("%d",arr[n-j]);
+        printf("%d",arr[j]);
     }
 
     
