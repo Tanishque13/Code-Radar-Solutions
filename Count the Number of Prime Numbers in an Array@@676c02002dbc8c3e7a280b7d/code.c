@@ -10,7 +10,7 @@ int main(){
     }
     
     for(i=1;i<n;i++){
-        if(arr[i]%i==0){
+        if(arr[i]%i!=0){
             count++;
         }
     }
