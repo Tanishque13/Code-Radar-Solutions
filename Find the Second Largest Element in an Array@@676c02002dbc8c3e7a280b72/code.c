@@ -4,7 +4,7 @@ int main(){
     int n,i,j;
     scanf("%d",&n);
     int arr[n];
-    int swap=-1;
+    //int swap=-1;
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
@@ -18,12 +18,13 @@ int main(){
             }
         }
     }
+    /*
     if(swap){
         printf("-1");
     }else{
         printf("%d",arr[j]);
     }
-
+*/
     
     
     
