@@ -9,7 +9,7 @@ int main(){
     }
     for(i=0;i<n-1;i++){
         sum=sum+arr[i]%10;
-        arr[i]=arr[i]/10;
+        
 
 
     }
