@@ -2,9 +2,9 @@
 
 int main() {
     int n, i;
-    int freq[1000] = {0};  // Frequency array initialized to 0
     scanf("%d", &n);
     int arr[n];
+    int freq[1000] = {0};  // Frequency array initialized to 0
 
     // Read input and count frequency
     for (i = 0; i < n; i++) {
@@ -12,29 +12,19 @@ int main() {
         freq[arr[i]]++;
     }
 
-    int greater = arr[0];  // Assume first number is the most frequent
-    int maxFreq = freq[arr[0]];  // Store its frequency
-    int countMax = 0; // To track how many numbers have max frequency
+    int majorityElement = -1;  // Default to -1 if no majority element
+    int threshold = n / 2;  // Majority condition: more than N/2 times
 
-    // Find the number with the highest frequency
+    // Check for the majority element
     for (i = 0; i < n; i++) {
-        if (freq[arr[i]] != 0) {  
-            if (freq[arr[i]] > maxFreq/2) {  
-                greater = arr[i];  // Update most frequent number
-                maxFreq = freq[arr[i]];  // Update max frequency
-                countMax = 1; // Reset count since we found a higher frequency
-            } else if (freq[arr[i]] == maxFreq && arr[i] != greater) {  
-                countMax++; // Another number has the same max frequency
-            }
+        if (freq[arr[i]] > threshold) {  
+            majorityElement = arr[i];
+            break; // Found the majority element, exit loop
         }
     }
 
-    // Check if there is a unique most frequent number
-    if (maxFreq > 1 && countMax == 1) {
-        printf("%d", greater);
-    } else {
-        printf("-1");
-    }
+    // Print the majority element or -1
+    printf("%d", majorityElement);
 
     return 0;
 }
