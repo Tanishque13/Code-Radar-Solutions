@@ -15,5 +15,9 @@ int main(){
             count++;
         }
     }
-    printf("%d",count);
+    if(isprime){
+        printf("%d",count);
+
+    }
+    
 }
