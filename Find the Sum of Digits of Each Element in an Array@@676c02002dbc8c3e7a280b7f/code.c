@@ -11,13 +11,13 @@ int main(){
         int num=arr[i];
         int sum=0;
         while(num>0){
-            
+
             sum=sum+num%10;
             num=num/10;
 
         }
-        
+        printf("%d",sum);
 
     }
-    printf("%d",sum);
+   
 }
