@@ -9,7 +9,7 @@ int main(){
     }
     for(i=0;i<n;i++){
         for(i=0;i<n-1-i;i++){
-            if(arr[j+1]>arr[j]){
+            if(arr[j]<arr[j+1]){
                 int temp=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
@@ -20,7 +20,7 @@ int main(){
         }
 
     }
-    printf("%d",arr[j]);
+    printf("%d",arr[n]*arr[n-1]);
     
 
 }
