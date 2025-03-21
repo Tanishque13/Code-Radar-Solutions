@@ -8,16 +8,16 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int iss=0;
+    int iss=1;
     for(i=0;i<n;i++){
         if(arr[i]<=arr[i+1]||arr[i]>=arr[i+1]){
-            iss=1;
+            iss=0;
 
         }
     }
     if(iss){
-        printf("NO");
-    }else{
         printf("YES");
+    }else{
+        printf("NO");
     }
 }
