@@ -8,7 +8,7 @@ int main() {
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
         if (arr[i] % 2 == 0 && arr[i] > maxEven) {
-            maxEven = arr[i];  // Update largest even number
+            maxEven = abs(arr[i]);  // Update largest even number
         }
     }
 
