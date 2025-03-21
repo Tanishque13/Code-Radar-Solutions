@@ -14,9 +14,10 @@ int main(){
         if(arr[i]%i==0){
             isprime=0;
             count++;
+
         }
     }
-    if(!(isprime)){
+    if(~(isprime)){
         printf("%d",count);
 
     }
