@@ -2,16 +2,24 @@
 void deflateBalloons(int n,int air[]){
     int count=0;
     while(n>0){
-        for(int i=0;i<n;i++){
         int smallest=air[0];
+        for(int i=0;i<n;i++){
+        
         if(air[i]<smallest){
-            air[i]=air[i-smallest];
-            for(i=0;i<n;i++){
-                count++;
+            smallest=air[i];
+            
+            
             }
 
         }
-        printf("%d ",count);
+        int reamining=0;
+        for(i=0;i<n;i++){
+            if(air[i]>0){
+                air[i]-=smallest;
+                reamining++;
+            }
+        }
+        printf("%d ",reamining);
     }
 
     }
