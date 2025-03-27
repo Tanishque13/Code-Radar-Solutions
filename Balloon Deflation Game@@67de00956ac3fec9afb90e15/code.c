@@ -1,8 +1,8 @@
 // Your code here...
-void deflateBalloons(int n,int air[i],int num){
+void deflateBalloons(int n,int air[],int num){
     
     int smallest=air[0];
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         
         if(air[i]<smallest){
             air[i]=air[i-2];
