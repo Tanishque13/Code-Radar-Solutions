@@ -1,5 +1,5 @@
 // Your code here...
-void deflateBalloons(int n,int air[]){
+void deflateBalloons(int n,int air[],int num){
     
     
     for(int i=0;i<n;i++){
@@ -9,7 +9,7 @@ void deflateBalloons(int n,int air[]){
             air[i]=air[i-2];
             
             for(i=0;i<n;i++){
-                int num;
+                
                 if(air[i]!=0){
                     num++;
                 }
