@@ -12,14 +12,14 @@ void deflateBalloons(int n,int air[]){
             }
 
         }
-        int reamining=0;
+        int remain=n;
         for(int i=0;i<n;i++){
             if(air[i]>0){
                 air[i]-=smallest;
-                reamining++;
+                remain++;
             }
         }
-        printf("%d ",reamining);
+        printf("%d ",remain);
     }
 
     }
