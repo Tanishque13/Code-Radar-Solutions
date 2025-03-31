@@ -26,3 +26,4 @@ void printPrimesInRange(int a, int b) {
     }
     printf("\n"); // Newline for neat output
 }
+
