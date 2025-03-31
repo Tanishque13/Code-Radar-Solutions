@@ -1,5 +1,5 @@
 // Your code here...
-int searchInRotatedArray(int arr[],int n,int k){
+int selectionSort(int arr[],int n,int k){
     if(k>n){
         return -1;
     }
