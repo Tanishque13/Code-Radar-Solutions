@@ -1,6 +1,6 @@
 // Your code here...
 void printArray(char arr[],int j){
-    printf("%d",arr[j]);
+    printf("%c",arr[j]);
 
 }
 int selectionSort(char arr[],int n){
