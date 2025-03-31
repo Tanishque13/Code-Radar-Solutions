@@ -27,7 +27,7 @@ int main(){
     //         break;
     //     }
     for(i=0;i<n;i++){
-        printf("%d",arr[n-2]);
+        secondLargest=arr[n-2];
         break;
     }
 
