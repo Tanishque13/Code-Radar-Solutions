@@ -34,7 +34,7 @@ int main(){
         printf("%d\n", secondLargest);
 
         }
-
+    }
     
     
 
