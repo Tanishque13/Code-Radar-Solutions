@@ -4,7 +4,7 @@ void fibonacciSeries(int n){
     int y=1;
     int sum;
     if (n > 1) {
-        printf(", %d", y);
+        printf("%d", y);
     }
     for(int i=2;i<n;i++){
         sum=x+y;
