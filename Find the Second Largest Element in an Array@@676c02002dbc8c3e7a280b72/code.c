@@ -30,10 +30,10 @@ int main(){
         if(!(secondLargest))
         secondLargest=arr[n-2];
         
-    }else{
+        }else{
         printf("%d\n", secondLargest);
 
-    }
+        }
 
     
     
