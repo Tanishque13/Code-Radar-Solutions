@@ -11,5 +11,5 @@ int searchInRotatedArray(int arr[],int n,int k){
             }
         }
     }
-    printf("%d",arr[j]);
+    printf("%d",arr[]);
 }
