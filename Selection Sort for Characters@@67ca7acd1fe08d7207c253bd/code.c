@@ -15,7 +15,7 @@ int selectionSort(char arr[],int n){
             }
         }
     }
-    re
+    return 0;
     
 
 }
