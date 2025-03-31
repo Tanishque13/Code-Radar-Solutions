@@ -31,7 +31,7 @@ int main(){
         break;
     }
 
-    }
+    
     printf("%d\n", secondLargest);
 
     
