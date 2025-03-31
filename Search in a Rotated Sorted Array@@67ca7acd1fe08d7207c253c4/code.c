@@ -1,11 +1,11 @@
 // Your code here...
-void searchInRotatedArray(int arr[],int k,int n){
+int searchInRotatedArray(int arr[],int k,int n){
     for(int i=0;i<n;i++){
         if(arr[i]==k){
-            printf("%d",i);
+            return i;
         }
         else{
-            printf("-1");
+            return -1;
         }
     }
 }
