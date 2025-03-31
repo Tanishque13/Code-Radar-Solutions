@@ -3,6 +3,7 @@ void printArray(char arr[], int n) {
     for (int i = 0; i < n; i++) {
         printf("%c ", arr[i]);
     }
+}
 void selectionSort(char arr[],int n){
     int j;
     for(int i=0;i<n-1;i++){
@@ -16,6 +17,6 @@ void selectionSort(char arr[],int n){
         }
     }
     
-}
+
 
 }
