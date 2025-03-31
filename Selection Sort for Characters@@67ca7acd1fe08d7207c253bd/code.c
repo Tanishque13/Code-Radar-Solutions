@@ -5,7 +5,7 @@ void printArray(char arr[], int n) {
     }
 void selectionSort(char arr[],int n){
     int j;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n-1;i++){
         for(j=0;j<n-1-i;j++){
             if(arr[j]>arr[j+1]){
                 char temp=arr[j];
@@ -15,7 +15,7 @@ void selectionSort(char arr[],int n){
             }
         }
     }
-    return 0;
+    
 }
 
 }
