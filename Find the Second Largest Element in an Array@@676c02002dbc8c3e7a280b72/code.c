@@ -27,13 +27,16 @@ int main(){
     //         break;
     //     }
     for(i=0;i<n;i++){
-        if(!secondLargest)
+        if(!(secondLargest))
         secondLargest=arr[n-2];
-        break;
+        
+    }else{
+        printf("%d\n", secondLargest);
+
     }
 
     
-    printf("%d\n", secondLargest);
+    
 
     
     
