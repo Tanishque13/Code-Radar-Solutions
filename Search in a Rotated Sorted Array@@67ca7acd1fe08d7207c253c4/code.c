@@ -14,5 +14,5 @@ int searchInRotatedArray(int arr[],int n,int k){
             }
         }
     }
-    return ("%d",arr[k]);
+    return arr[k];
 }
