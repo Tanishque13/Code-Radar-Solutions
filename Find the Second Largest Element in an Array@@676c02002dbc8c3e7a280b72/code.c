@@ -23,6 +23,11 @@ int main(){
             
         }
     }
+    for(i=0;i<n;i++){
+        if(arr[i]==arr[i+1] || sizeof(arr[i])==2 && arr[i]<arr[i+1]){
+            printf("-1");
+        }
+    }
     printf("%d",arr[n-2]);
    
     
