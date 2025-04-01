@@ -20,3 +20,4 @@ int main(){
     }
     printf("%d",max_freq);
 }
+}
