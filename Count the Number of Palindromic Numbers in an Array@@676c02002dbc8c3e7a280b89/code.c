@@ -14,11 +14,12 @@ int main(){
             reverse=reverse*10+num%10;
             num/=10;
         }
-
-    }
     if(orig==reverse){
         count++;
     }
+
+    }
+    
     printf("%d",count);
 
 }
