@@ -15,9 +15,9 @@ int main(){
             reverse=reverse*10+arr[i]%10;
             arr[i]/=10;
         }
-    if(orig==reverse){
-        count++;
-    }
+        if(orig==reverse){
+            count++;
+        }
 
     }
     
