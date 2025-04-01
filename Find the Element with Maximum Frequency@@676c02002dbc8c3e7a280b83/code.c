@@ -10,14 +10,12 @@ int main(){
         freq[arr[i]]++;
     }
     int max_freq=freq[0];
+    int max_ele=arr[0];
     for(i=0;i<n;i++){
         if(freq[arr[i]]>max_freq){
-            max_freq=freq[i];
-        
-
-
-
+            max_freq=freq[arr[i]];
+            max_ele=arr[i];
+        }
     }
-    printf("%d",max_freq);
-}
+    printf("%d",max_ele);
 }
