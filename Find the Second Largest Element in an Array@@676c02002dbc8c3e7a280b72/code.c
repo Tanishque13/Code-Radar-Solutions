@@ -3,6 +3,9 @@
 int main(){
     int n,i,j,temp;
     scanf("%d",&n);
+    if(n<2){
+        printf("-1");
+    }
     int arr[n];
     
     for(i=0;i<n;i++){
@@ -24,7 +27,7 @@ int main(){
         }
     }
     
-    if(arr[n-2]!=arr[n-1]&& arr[n]>2){
+    if(arr[n-2]!=arr[n-1]){
         printf("%d",arr[n-2]);
     }else{
         printf("-1");
