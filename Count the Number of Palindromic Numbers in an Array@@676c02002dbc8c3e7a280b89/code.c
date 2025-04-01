@@ -9,7 +9,7 @@ int main(){
     }
     int orig,reverse=0,count=0;
     orig=num;
-    for(i=0;i<n;i++){
+    for(i=0;i<num;i++){
         while(num>0){
             reverse=reverse*10+num%10;
             num\=10;
