@@ -8,6 +8,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int found=1;
     for(i=0;i<n-1;i++){
         for(j=0;j<n-1-i;j++){
             if(arr[j]>arr[j+1]){
@@ -20,7 +21,14 @@ int main(){
             
         }
     }
-    printf("%d",arr[n-2]);
+    
+    if(!(found)){
+        printf("-1");
+
+    }else{
+        printf("%d",arr[n-2]);
+    }
+    
     
     
     
