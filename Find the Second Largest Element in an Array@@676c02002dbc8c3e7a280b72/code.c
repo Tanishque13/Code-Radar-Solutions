@@ -24,7 +24,7 @@ int main(){
         }
     }
     
-    if(arr[n-2]!=arr[n-1]){
+    if(arr[n-2]!=arr[n-1]||arr[n-2]>arr[n-1]){
         printf("%d",arr[n-2]);
     }else{
         printf("-1");
