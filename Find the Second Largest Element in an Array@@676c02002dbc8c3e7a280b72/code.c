@@ -20,21 +20,9 @@ int main(){
             
         }
     }
-    int secondLargest = -1;
-    // for (i = n - 2; i >= 0; i--) { 
-    //     if (arr[i] < arr[n - 1]) { 
-    //         secondLargest = arr[i];
-    //         break;
-    //     }
-    for(i=0;i<n;i++){
-        if(!(secondLargest)){
-        secondLargest=arr[n-2];
-        
-        }else{
-        printf("%d\n", secondLargest);
-
-        }
-    }
+    printf("%d",arr[n-2]);
+    
+    
     
     
 
