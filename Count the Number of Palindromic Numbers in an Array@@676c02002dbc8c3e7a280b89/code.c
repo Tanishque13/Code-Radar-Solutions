@@ -12,7 +12,7 @@ int main(){
     for(i=0;i<num;i++){
         while(num>0){
             reverse=reverse*10+num%10;
-            num\=10;
+            num/=10;
         }
 
     }
