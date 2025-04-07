@@ -15,7 +15,7 @@ int main(){
         if(x==str1[i]){
             c++;
             found=1;
-            break;
+            
 
         }
     }
