@@ -3,19 +3,26 @@
 #include<string.h>
 int main(){
     char str[100];
-    char newstr[100];
-    int count =0;
-    int j=0;
+    int freq[100];
     fgets(str,sizeof(str),stdin);
-    for(int i=0;str[i]!='\0';i++){
-        newstr[j++]=str[i];
-        if(newstr[j]==str[i]){
-            count++;
+    for(int i=0;i<sizeof(str);i++){
+        freq[arr[i]]++;
+        max_freq=freq{arr[0]};
+        ele=arr[0];
+        for(int i=0;i<sizeof(str);i++){
+            if(freq[arr[i]]>max_freq){
+                max_freq=freq[arr[i]];
+                ele=arr[i];
+            }
         }
-
-
+        printf("%c",arr[i]);
+    }
+    
+        
+        
         
 
     }
-    printf("%s",str[j]);
+
+    
 }
