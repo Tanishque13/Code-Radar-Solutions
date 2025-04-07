@@ -12,7 +12,7 @@ int main(){
         freq1[str1[i]]++;
 
     }
-    for(int j=0;j<stren(str2);j++){
+    for(int j=0;j<strlen(str2);j++){
         freq2[str2[j]]++;
     }
     for(int i=0;i<256;i++){
