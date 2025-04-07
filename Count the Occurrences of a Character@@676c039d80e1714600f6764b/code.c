@@ -16,7 +16,7 @@ int main(){
     int c=-1;
     for(int i=0;i<strlen(str1);i++){
         if(x==str1[i]){
-            int c=i;
+            c=i;
             found=1;
             break;
 
