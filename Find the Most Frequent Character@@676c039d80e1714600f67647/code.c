@@ -2,9 +2,9 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char str[100];
+    char arr[100];
     int freq[100];
-    fgets(str,sizeof(str),stdin);
+    fgets(str,sizeof(arr),stdin);
     for(int i=0;i<sizeof(str);i++){
         freq[arr[i]]++;
         max_freq=freq{arr[0]};
