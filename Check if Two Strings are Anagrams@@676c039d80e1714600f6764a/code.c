@@ -15,13 +15,14 @@ int main(){
     for(int j=0;j<strlen(str2);j++){
         freq2[str2[j]]++;
     }
-    for(int i=0;i<256;i++){
+    for(int i=0;i<=256;i++){
         if(freq1[i]!=freq2[i]){
             printf("No");
             break;
         }
+        printf("Yes");
     }
-    printf("Yes");
+    
     
 
 
