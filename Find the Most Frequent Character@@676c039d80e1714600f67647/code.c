@@ -3,7 +3,7 @@
 #include<string.h>
 int main(){
     char arr[100];
-    int freq[100]={0};
+    int freq[256]={0};
     int max_freq=freq[arr[0]];
     char ele=arr[0];
     fgets(arr,sizeof(arr),stdin);
