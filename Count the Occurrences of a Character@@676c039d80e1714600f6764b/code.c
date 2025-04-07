@@ -20,7 +20,7 @@ int main(){
         }
     }
     if(found){
-        printf("%d",str[i]);
+        printf("%d",str1[i]);
     }
 
 }
