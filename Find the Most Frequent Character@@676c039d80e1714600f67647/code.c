@@ -9,22 +9,25 @@ int main(){
     fgets(arr,sizeof(arr),stdin);
     for(int i=0;i<strlen(arr);i++){
         freq[arr[i]]++;
+    }
         
-        for(int i=0;i<strlen(arr);i++){
-            if(freq[arr[i]]>max_freq){
-                int max_freq=freq[arr[i]];
-                char ele=arr[i];
-            }
-            
+    for(int i=0;i<strlen(arr);i++){
+        if(freq[arr[i]]>max_freq){
+            int max_freq=freq[arr[i]];
+            char ele=arr[i];
         }
-        
-       
+            
     }
     printf("%c",ele);
+
+
+       
+    }
+   
     
         
         
         
 
-    }
+    
     
