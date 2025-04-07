@@ -4,21 +4,29 @@
 int main(){
     char str1[100];
     char str2[100];
-    int count1=0;
-    int count2=0;
-    fgets(str1,sizeof(str1),stdin);
-    fgets(str2,sizeof(str2),stdin);
-    for(int i=0;str1[i]!='\0';i++){
-        count1++;
+    scanf("%[^\n]",&str1);
+    scanf("%[^\n]",&str2);
+    int freq1[256]={0};
+    int freq2[256]={0};
+    for(int i=0;i<strlen(str1);i++){
+        freq1[str1[i]]++;
+
     }
-    for(int j=0;str2[j]!='\0';j++){
+    for(int j=0;j<stren(str2);j++){
+        freq2[str2[j]]++;
+    }
+    for(int i=0;i<256;i++){
+        if(freq1[i]!=freq2[i]){
+            printf("No");
+            break;
+        }
+    }
+    printf("Yes");
+    
+
+
+
+
+    
         
-        count2++;
-    }
-    if(count1==count2){
-        printf("Yes");
-    }else{
-        printf("No");
-    }
-        
-    }
+}
