@@ -5,6 +5,7 @@ int main(){
     char str1[100];
     char str2[100];
     scanf("%[^\n]",&str1);
+    scanf("\n");
     scanf("%[^\n]",&str2);
     int freq1[256]={0};
     int freq2[256]={0};
