@@ -17,7 +17,7 @@ int main(){
         freq2[str2[j]]++;
     }
     int isanna=1;
-    for(int i=0;i<=256;i++)
+    for(int i=0;i<256;i++)
     {
         if(freq1[i]!=freq2[i])
         {
