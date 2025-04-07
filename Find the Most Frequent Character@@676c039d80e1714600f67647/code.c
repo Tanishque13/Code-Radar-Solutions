@@ -5,7 +5,8 @@ int main(){
     char arr[100];
     int freq[256]={0};
     
-    fgets(arr,sizeof(arr),stdin);
+    
+    scanf(" %[^\n]", arr);
     for(int i=0;i<strlen(arr);i++){
         freq[arr[i]]++;
     }
