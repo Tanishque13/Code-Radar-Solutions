@@ -11,16 +11,17 @@ int main(){
         freq[str1[i]]++;
 
     }
-    int found =1;
+    int found =0;
     for(int i=0;i<strlen(str1);i++){
-        if(x!=str1[i]){
-            found=0;
+        if(x==str1[i]){
+            int c=i;
+            found=1;
             break;
 
         }
     }
-    if(found){
-        printf("%d",str1[i]);
+    if(!found){
+        printf("%d",c);
     }
 
 }
