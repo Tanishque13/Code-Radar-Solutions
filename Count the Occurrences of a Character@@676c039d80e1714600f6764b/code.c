@@ -4,7 +4,7 @@
 int main(){
     char str1[100];
     char x;
-    scanf("%[^\n]",&str1);
+    scanf("%[^\n]",str1);
     scanf("\n");
     scanf("%c",&x);
     
