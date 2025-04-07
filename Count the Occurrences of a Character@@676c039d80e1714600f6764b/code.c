@@ -21,6 +21,8 @@ int main(){
     }
     if(found){
         printf("%d",c);
+    }else{
+        printf("0");
     }
 
 }
