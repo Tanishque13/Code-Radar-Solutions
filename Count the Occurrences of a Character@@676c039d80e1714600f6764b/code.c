@@ -12,6 +12,7 @@ int main(){
 
     }
     int found =0;
+    int c=-1;
     for(int i=0;i<strlen(str1);i++){
         if(x==str1[i]){
             int c=i;
@@ -20,8 +21,10 @@ int main(){
 
         }
     }
-    if(!found){
+    if(found){
         printf("%d",c);
+    }else{
+        printf("-1");
     }
 
 }
