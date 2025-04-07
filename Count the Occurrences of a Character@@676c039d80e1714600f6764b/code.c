@@ -13,7 +13,7 @@ int main(){
 
     }
     int found =0;
-    int c=-1;
+    int c=0;
     for(int i=0;i<strlen(str1);i++){
         if(x==str1[i]){
             c=i;
@@ -25,7 +25,7 @@ int main(){
     if(found){
         printf("%d",c);
     }else{
-        printf("-1");
+        printf("0");
     }
 
 }
