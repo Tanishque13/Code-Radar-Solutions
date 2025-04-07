@@ -7,16 +7,13 @@ int main(){
     scanf("%[^\n]",&str1);
     scanf("\n");
     scanf("%c",&x);
-    int freq[256]={0};
-    for(int i=0;i<strlen(str1);i++){
-        freq[str1[i]]++;
-
-    }
+    
+    
     int found =0;
     int c=0;
     for(int i=0;i<strlen(str1);i++){
         if(x==str1[i]){
-            c=i;
+            c++;
             found=1;
             break;
 
