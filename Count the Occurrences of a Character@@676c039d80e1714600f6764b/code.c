@@ -13,7 +13,7 @@ int main(){
     }
     int found =1;
     for(int i=0;i<strlen(str1);i++){
-        if(x!=st1r[i]){
+        if(x!=str1[i]){
             found=0;
             break;
 
