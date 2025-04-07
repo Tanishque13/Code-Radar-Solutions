@@ -14,8 +14,8 @@ int main(){
         
     for(int i=0;i<strlen(arr);i++){
         if(freq[arr[i]]>max_freq){
-            int max_freq=freq[arr[i]];
-            char ele=arr[i];
+            max_freq=freq[arr[i]];
+            ele=arr[i];
         }
             
     }
