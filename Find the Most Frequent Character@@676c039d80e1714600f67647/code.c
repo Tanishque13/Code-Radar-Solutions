@@ -15,7 +15,7 @@ int main(){
                 char ele=arr[i];
             }
         }
-        printf("%c",arr[i]);
+        printf("%c",ele);
     }
     
         
