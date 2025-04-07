@@ -5,6 +5,7 @@ int main(){
     char str1[100];
     char x;
     scanf("%[^\n]",&str1);
+    scanf("\n");
     scanf("%c",&x);
     int freq[256]={0};
     for(int i=0;i<strlen(str1);i++){
