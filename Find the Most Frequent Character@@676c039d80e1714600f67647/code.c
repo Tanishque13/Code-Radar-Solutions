@@ -13,7 +13,8 @@ int main(){
             if(freq[arr[i]]>max_freq){
                 int max_freq=freq[arr[i]];
                 char ele=arr[i];
-            }
+            
+        }
         }
        
     }
