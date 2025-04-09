@@ -8,7 +8,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    smallest=0;
+    int smallest=0;
     int first,second;
     int smallest=abs(arr[0]-arr[1]);
     if(arr[i]-arr[i+1]>snallest){
