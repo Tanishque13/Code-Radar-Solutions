@@ -8,20 +8,17 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int found=0;
-    int first;
-    int second;
-    int smallest=arr[0]-arr[1];
-    for(i=0;i<n;i++){
-        if(arr[i]-arr[i+1]<smallest){
+    smallest=0;
+    int first,second;
+    int smallest=abs(arr[0]-arr[1]);
+    if(arr[i]-arr[i+1]>snallest){
         smallest=1;
         first=arr[i];
         second=arr[i+1];
-        break;
-        }
 
     }
     printf("%d %d",first,second);
+    
     
 
 
