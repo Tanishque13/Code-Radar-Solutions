@@ -17,6 +17,7 @@ int main(){
         smallest=1;
         first=arr[i];
         second=arr[i+1];
+        break;
         }
 
     }
