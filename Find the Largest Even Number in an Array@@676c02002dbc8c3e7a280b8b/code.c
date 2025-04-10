@@ -26,9 +26,14 @@ int main() {
     for(i=n;i>i;i--){
         if(arr[i]%2==0){
             max=arr[i];
+            max=1;
         }
     }
-    printf("%d",max);
+    if(max){
+        printf("-1");
+    }else{
+        printf("%d",max);
+    }
 
     
 }
