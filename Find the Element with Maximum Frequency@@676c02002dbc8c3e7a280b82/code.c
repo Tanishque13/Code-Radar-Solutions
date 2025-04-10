@@ -14,10 +14,10 @@ int main(){
         freq[arr[i]]++;
 
     }
-    int great=freq[arr[0]];
+    int great=arr[0];
     for(i=0;i<n;i++){
         if(freq[arr[i]]>great){
-            great=freq[arr[i]];
+            great=arr[i];
         }
     }
     printf("%d",great);
