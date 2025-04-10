@@ -22,15 +22,16 @@ int main() {
             }
         }
     }
-    int max=-1;
-    for(i=n;i>i;i--){
-        if(arr[i]%2==0){
-            max=arr[i];
+    int max=1;
+    int largest=arr[n-1];
+    for(i=0;i<n;i++){
+        if(arr[n-1]%2!=0 && arr[n-1]<arr[n-i]){
+            max=0;
             
         }
     }
-    if(!(max)){
-        printf("%d",arr[i]);
+    if(max){
+        printf("%d",arr[n-1]);
     }else{
         printf("-1");
     }
