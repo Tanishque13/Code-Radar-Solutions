@@ -25,7 +25,7 @@ int main() {
                     }
                 }
 
-                if (alreadyPrinted) {
+                if (!alreadyPrinted) {
                     printf("%d %d\n", arr[i], arr[j]);
                 }
             }
