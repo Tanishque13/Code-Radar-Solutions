@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 #include<string.h>
-#include<maths.h>
+#include<math.h>
 int main(){
     char str[100];
     scanf("%[^\n]",str);
