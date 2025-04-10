@@ -28,7 +28,7 @@ int main() {
         if(arr[n-1]%2!=0 && largest<arr[n-i]){
             
             max=0;
-            largest=arr[n-i]
+            largest=arr[n-i];
             break;
             
         }
