@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int t;
-    scanf("%d",t);
+    scanf("%d",&t);
     int found=1;
     for(i=0;i<n;i++){
         if(arr[i]+arr[i+1]!=t){
