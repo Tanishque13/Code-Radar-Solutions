@@ -11,7 +11,7 @@ int main() {
     }
     int max=-1;
     for(i=0;i<n;i++){
-        if(arr[i]%2==0 && arr[i]>max || max==-1)
+        if(arr[i]%2==0 && (arr[i]>max || max==-1))
         max=arr[i];
     }
     printf("%d",max);
