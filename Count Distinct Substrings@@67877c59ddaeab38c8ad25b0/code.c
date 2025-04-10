@@ -10,7 +10,7 @@ int main() {
     int n = strlen(str);
     int totalSubstrings = n * (n + 1) / 2;
 
-    printf("Total number of substrings: %d\n", totalSubstrings);
+    printf("%d\n", totalSubstrings);
     
     return 0;
 }
