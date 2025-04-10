@@ -1,15 +1,15 @@
 // Your code here...
-#include<stdio.h>
-#include<string.h>
-#include<math.h>
-int main(){
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+
+int main() {
     char str[100];
-    int i;
-    scanf("%[^\n]",str);
-    for(i=0;str[i]!='\0';i++){
-        int x=sizeof(str);
-        printf("%d",pow(x,2));
+    scanf(" %[^\n]", str); // read full line
 
+    int len = strlen(str);
+    int result = (int)pow(len, 2);
 
-    }
+    printf("Square of length: %d\n", result);
+    return 0;
 }
