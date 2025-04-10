@@ -22,14 +22,14 @@ int main() {
             }
         }
     }
-    int max=1;
-    int largest=arr[0];
+    int max=0;
+    int largest;
     for(i=0;i<n;i++){
-        if(arr[n-1]%2!=0 && largest<arr[n-i]){
+        if(arr[n-1]%2==0 && arr[n-1]>arr[n-i]){
             
             max=0;
-            largest=arr[n-i];
-            break;
+            largest=arr[n-1];
+            
             
         }
     }
