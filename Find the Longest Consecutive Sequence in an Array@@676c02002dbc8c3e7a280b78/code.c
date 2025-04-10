@@ -8,12 +8,13 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int arr1[n];
     int count=0;
     for(i=0;i<n;i++){
         if(arr[i]==arr[i+1]){
-            count++;
+            arr1[n]=arr[i];
         }
     }
     
-    printf("%d",count);
+    printf("%d",sizeof(arr1[n]));
 }
