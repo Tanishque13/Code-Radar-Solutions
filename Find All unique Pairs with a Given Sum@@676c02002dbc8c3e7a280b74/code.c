@@ -16,7 +16,7 @@ int main() {
             if (arr[i] + arr[j] == t) {
                 int duplicate = 0;
 
-                // Check if this pair (arr[i], arr[j]) was already printed
+                // Check if this pair has already been printed
                 for (k = 0; k < i; k++) {
                     int l;
                     for (l = k + 1; l < n; l++) {
