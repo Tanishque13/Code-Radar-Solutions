@@ -1,16 +1,17 @@
 // Your code here...
-#include<stdio.h>
+#include <stdio.h>
+
 int main() {
     int n, i, j;
     scanf("%d", &n);
     int arr[100];
 
-    
+    // Input
     for(i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
-    
+    // Sort the array (Bubble sort)
     for(i = 0; i < n - 1; i++) {
         for(j = 0; j < n - 1 - i; j++) {
             if(arr[j] > arr[j + 1]) {
@@ -20,21 +21,15 @@ int main() {
             }
         }
     }
-    int found=1;
-    int num=arr[0];
-    
-    for(i=1;i<n;i++){
-        if(arr[i]!=arr[i-1]+1){
-            found=0;
-            num=arr[i];
 
+    // Find the smallest missing positive number
+    int missing = 1; // Start checking from 1
+    for(i = 0; i < n; i++) {
+        if(arr[i] == missing) {
+            missing++;
         }
     }
-    printf("%d",num);
 
-
-
-
-
-
+    printf("%d", missing);
+    return 0;
 }
