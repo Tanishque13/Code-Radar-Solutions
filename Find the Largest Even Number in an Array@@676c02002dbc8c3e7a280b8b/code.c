@@ -23,17 +23,18 @@ int main() {
         }
     }
     int max=1;
-    int largest=arr[n-1];
+    int largest=arr[0];
     for(i=0;i<n;i++){
-        if(arr[n-1]%2!=0 && arr[n-1]<arr[n-i-1]){
+        if(arr[n-1]%2!=0 && largest<arr[n-i]){
             
             max=0;
+            largest=arr[n-i]
             break;
             
         }
     }
     if(max){
-        printf("%d",arr[n-1]);
+        printf("%d",largest);
     }else{
         printf("-1");
     }
