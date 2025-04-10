@@ -14,6 +14,7 @@ int main(){
         if(n%2==0){
             sum+=arr[i];
             medi=sum/n;
+            break;
 
         }
         else{
