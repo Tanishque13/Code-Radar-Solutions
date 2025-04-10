@@ -8,7 +8,7 @@ int main(){
     int freq[1000]={0};
     for(i=0;str[i]!='\0';i++){
         
-        printf("%c: %d",str[i],freq[(int)str[i]]++);
+        printf("%c: %d\n",str[i],freq[(int)str[i]]++);
 
     }
     
