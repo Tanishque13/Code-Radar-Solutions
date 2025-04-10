@@ -1,24 +1,17 @@
-// Your code here...
-#include <stdio.h>
+/#include <stdio.h>
 #include <string.h>
 
 int main() {
     char str[100];
-    int i;
-    int freq[256] = {0};
+    int seen[256] = {0}; // To track already printed characters
 
-    // Read input with spaces
+    // Read a full line including spaces
     scanf(" %[^\n]", str);
 
-    // Count frequency of each character
-    for (i = 0; str[i] != '\0'; i++) {
-        freq[(int)str[i]]++;
-    }
-
-    // Print characters that appear only once
-    for (i = 0; str[i] != '\0'; i++) {
-        if (freq[(int)str[i]] <2) {
+    for (int i = 0; str[i] != '\0'; i++) {
+        if (!seen[(int)str[i]]) {
             printf("%c", str[i]);
+            seen[(int)str[i]] = 1;
         }
     }
 
