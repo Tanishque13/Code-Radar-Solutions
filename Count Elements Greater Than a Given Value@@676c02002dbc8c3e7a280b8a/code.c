@@ -12,7 +12,7 @@ int main(){
     }
     int found=0;
     for(i=0;i<n;i++){
-        if(arr[i]<k){
+        if(arr[i]>k){
             found++;
 
         }
