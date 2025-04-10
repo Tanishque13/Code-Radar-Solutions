@@ -10,7 +10,7 @@ int main(){
         scanf("%d",&arr[i]);
 
     }
-    found=0;
+    int found=0;
     for(i=0;i<n;i++){
         if(arr[i]<k){
             found++;
