@@ -11,7 +11,7 @@ int main(){
     }
     for(i=0;i<256;i++){
         if(freq[i]==1){
-            printf("%s",i);
+            printf("%s",str[i]);
         }
     }
 
