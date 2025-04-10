@@ -8,14 +8,16 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int medi=0;
+    int sum=0;
+    int medi;
     for(i=0;i<n;i++){
         if(n%2!=0){
-            medi+=(arr[i]/n);
+            sum+=arr[i];
+            medi=sum/n;
 
         }
         else{
-            medi=arr[n/2];
+            medi=arr[n]/2;
         }
     }
     printf("%d",medi);
