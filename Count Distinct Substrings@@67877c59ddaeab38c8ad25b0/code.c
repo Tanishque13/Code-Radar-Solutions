@@ -7,7 +7,7 @@ int main(){
     int i;
     scanf("%[^\n]",str);
     for(i=0;str[i]!='\0';i++){
-        int x=sizeof(str)
+        int x=sizeof(str);
         printf("%d",pow(x,2));
 
 
