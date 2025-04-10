@@ -4,12 +4,15 @@
 int main(){
     char str[100];
     int i;
-    scanf("%[^\n]",&str);
-    int freq[1000]={0};
+    scanf("%s",&str);
+    int freq[256]={0};
     for(i=0;str[i]!='\0';i++){
-        
-        printf("%c: %d\n",str[i],freq[(int)str[i]]++);
-
+        freq[(int)str[i]]++;
     }
-    
+    for(int i=0;i<256;i++){
+        if(freq[i]>0){
+            printf("%c: %d\n",i,freq[i]);
+        }
+    }
+
 }
