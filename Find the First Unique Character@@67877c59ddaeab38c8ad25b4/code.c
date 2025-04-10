@@ -1,21 +1,27 @@
-// Your code here...
-#include <stdio.h>
+/#include <stdio.h>
 #include <string.h>
 
 int main() {
     char str[100];
-    int seen[256] = {0}; // To track already printed characters
+    int freq[256] = {0};
 
-    // Read a full line including spaces
+    // Read a line including spaces
     scanf(" %[^\n]", str);
 
+    // Count frequency of each character
     for (int i = 0; str[i] != '\0'; i++) {
-        if (!seen[(int)str[i]]) {
-            printf("%c", str[i]);
-            seen[(int)str[i]] = 1;
-            break;
+        freq[(int)str[i]]++;
+    }
+
+    // Find and print the first character that appears only once
+    for (int i = 0; str[i] != '\0'; i++) {
+        if (freq[(int)str[i]] == 1) {
+            printf("%c\n", str[i]);
+            return 0;
         }
     }
 
+    // If no unique character found
+    printf("-");
     return 0;
 }
