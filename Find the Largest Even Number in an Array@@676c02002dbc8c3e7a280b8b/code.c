@@ -29,6 +29,7 @@ int main() {
             
             max=0;
             largest=arr[n-1];
+            break;
             
             
         }
