@@ -20,5 +20,5 @@ int main(){
             great=freq[arr[i]];
         }
     }
-    printf("%d",freq[arr[i]]);
+    printf("%d",arr[i]);
 }
