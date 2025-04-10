@@ -9,7 +9,7 @@ int main(){
     for(i=0;str[i]!='\0';i++){
         freq[(int)str[i]]++;
     }
-    for(i=0;i<256;i++){
+    for(i=0;str[i]!='\0';i++){
         if(freq[(int)str[i]]==1){
             printf("%s",str[i]);
         }
