@@ -17,7 +17,7 @@ int main(){
 
         }
         else{
-            medi=arr[n]/2;
+            medi=arr[i]/2;
         }
     }
     printf("%d",medi);
