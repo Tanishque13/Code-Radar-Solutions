@@ -18,7 +18,7 @@ int main(){
     
         }
     }
-    int fir,sec
+    int fir,sec;
     int small=arr[n-1]-arr[n-2];
     for(i=0;i<n;i++){
         if(arr[i]-arr[i+1]<small){
