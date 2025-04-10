@@ -10,6 +10,6 @@ int main() {
     int len = strlen(str);
     int result = (int)pow(len, 2);
 
-    printf("Square of length: %d\n", result);
+    printf("%d\n", result);
     return 0;
 }
