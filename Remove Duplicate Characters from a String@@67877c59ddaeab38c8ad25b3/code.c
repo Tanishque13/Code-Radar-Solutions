@@ -17,7 +17,7 @@ int main() {
 
     // Print characters that appear only once
     for (i = 0; str[i] != '\0'; i++) {
-        if (freq[(int)str[i]] <=1) {
+        if (freq[(int)str[i]] <2) {
             printf("%c", str[i]);
         }
     }
