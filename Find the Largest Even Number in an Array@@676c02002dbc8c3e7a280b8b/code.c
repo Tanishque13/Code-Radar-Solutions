@@ -27,7 +27,7 @@ int main() {
     for(i=0;i<n;i++){
         if(arr[n-1]%2==0 && arr[n-1]>arr[n-i]){
             
-            max=0;
+            max=1;
             largest=arr[n-1];
             break;
             
