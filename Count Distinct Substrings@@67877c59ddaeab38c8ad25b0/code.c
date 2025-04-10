@@ -4,6 +4,7 @@
 #include<math.h>
 int main(){
     char str[100];
+    int i;
     scanf("%[^\n]",str);
     for(i=0;str[i]!='\0';i++){
         int x=sizeof(str)
