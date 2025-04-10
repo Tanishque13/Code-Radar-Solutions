@@ -11,7 +11,7 @@ int main(){
     }
     for(i=0;str[i]!='\0';i++){
         if(freq[(int)str[i]]==1){
-            printf("%s",str[i]);
+            printf("%c",str[i]);
         }
     }
 
