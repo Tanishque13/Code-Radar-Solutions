@@ -7,8 +7,9 @@ int main(){
     scanf("%[^\n]",&str);
     int freq[1000]={0};
     for(i=0;str[i]!='\0';i++){
-        freq[(int)str[i]]++;
+        
+        printf("%c: %d",str[i],freq[(int)str[i]]++);
 
     }
-    printf("%c: %d",str[i],freq[(int)str[i]]++);
+    
 }
