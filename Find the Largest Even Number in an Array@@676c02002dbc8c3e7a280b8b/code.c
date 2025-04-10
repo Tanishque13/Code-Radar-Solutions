@@ -9,38 +9,13 @@ int main() {
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-
-    // Bubble sort to sort the array based on absolute values
-    int isSorted = 0;
-    for (i = 0; i < n - 1; i++) {
-        for (j = 0; j < n - 1 - i; j++) {
-            if (abs(arr[j]) < abs(arr[j + 1])) {
-                int temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
-                isSorted = 1;
-            }
-        }
-    }
-    int max=1;
-    int largest=arr[n-1];
+    int max=-1;
     for(i=0;i<n;i++){
-        if(arr[i]%2!=0 && largest<arr[n-i]){
-            
-            max=0;
-            largest=arr[n-i];
-            break;
-            
-            
-        }
+        if(arr[i]%2==0 && arr[i]>max || max==-1)
+        max=arr[i];
     }
-    if(max){
-        printf("%d",largest);
-    }else{
-        printf("-1");
-        
-    }
-    
+    printf("%d",max);
 
+    
     
 }
