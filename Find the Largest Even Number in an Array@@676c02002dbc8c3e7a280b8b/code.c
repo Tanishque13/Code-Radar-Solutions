@@ -29,10 +29,10 @@ int main() {
             
         }
     }
-    if(max){
-        printf("-1");
-    }else{
+    if(!(max)){
         printf("%d",arr[i]);
+    }else{
+        printf("-1");
     }
     
 
