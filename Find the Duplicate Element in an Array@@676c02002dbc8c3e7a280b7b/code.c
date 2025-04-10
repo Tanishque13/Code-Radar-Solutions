@@ -8,22 +8,15 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int found=0;
-    int arr1[n];
+    int arr1[100];
     for(i=0;i<n;i++){
-        arr1[n]=arr[i];
+        arr1[100]=arr[i];
         for(i=0;i<n;i++){
-            if(arr1[n]==arr[i]){
-            found=1;
-            printf("%d",arr[i]);
-            break;
-
+            if(arr1[i]==arr[i]){
+                printf("%d",arr[i]);
+                break;
             }
-
         }
-        
-
-
     }
     
 }
