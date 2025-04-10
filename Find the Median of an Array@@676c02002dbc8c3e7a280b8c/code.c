@@ -8,7 +8,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    medi=0;
+    int medi=0;
     for(i=0;i<n;i++){
         if(n%2!=0){
             medi+=(arr[i]/n);
