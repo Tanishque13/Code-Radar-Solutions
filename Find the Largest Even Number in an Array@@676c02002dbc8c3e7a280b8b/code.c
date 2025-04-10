@@ -25,7 +25,7 @@ int main() {
     int max=1;
     int largest=arr[n-1];
     for(i=0;i<n;i++){
-        if(arr[n]%2!=0 && largest<arr[n-i]){
+        if(arr[i]%2!=0 && largest<arr[n-i]){
             
             max=0;
             largest=arr[n-i];
