@@ -7,7 +7,7 @@ int main(){
     scanf("%[^\n]",&str);
     int freq[256]={0};
     for(i=0;str[i]!='\0';i++){
-        freq[(int)freq[str[i]]]++;
+        freq[(int)[str[i]]]++;
     }
     for(i=0;i<256;i++){
         if(freq[i]==1){
