@@ -11,7 +11,7 @@ int main(){
     int sum=0;
     int medi;
     for(i=0;i<n;i++){
-        if(n%2!=0){
+        if(n%2==0){
             sum+=arr[i];
             medi=sum/n;
 
