@@ -1,15 +1,16 @@
-// Your code here...
 #include <stdio.h>
 #include <string.h>
 
-
 int main() {
     char str[100];
-    scanf(" %[^\n]", str); // read full line
+    
+    // Read string with spaces
+    scanf(" %[^\n]", str);
+    
+    int n = strlen(str);
+    int totalSubstrings = n * (n + 1) / 2;
 
-    int len = strlen(str);
-    int result = (int)pow(len, 2);
-
-    printf("%d\n", result);
+    printf("Total number of substrings: %d\n", totalSubstrings);
+    
     return 0;
 }
