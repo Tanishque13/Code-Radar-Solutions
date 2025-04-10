@@ -16,9 +16,9 @@ int main(){
     }
     int great=freq[arr[0]];
     for(i=0;i<n;i++){
-        if(freq[arr[i]]>great){
+        if(freaq[arr[i]]>great){
             great=freq[arr[i]];
         }
     }
-    printf("%d",freq[arr[i]]);
+    printf("%d",great);
 }
