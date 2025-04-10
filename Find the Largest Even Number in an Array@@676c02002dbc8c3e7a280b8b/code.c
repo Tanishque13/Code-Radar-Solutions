@@ -35,9 +35,9 @@ int main() {
         }
     }
     if(max){
-        printf("%d",largest);
-    }else{
         printf("-1");
+    }else{
+        printf("%d",largest);
     }
     
 
