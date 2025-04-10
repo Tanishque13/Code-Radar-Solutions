@@ -8,16 +8,27 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int first,sec;
-    int min=arr[n-1]-arr[n-2];
-    for(i=0;i<n;i++){
-        if(arr[i]-arr[i+1]<min){
-            first=arr[i];
-            sec=arr[i+1];
-            break;
+    int temp;
+    for(i=0i<n;i++){
+        if(arr[i]>arr[i+1]){
+            tempt=arr[i];
+            arr[i]=arr[i+1];
+            arr[i+1]=temp;
+
+    
         }
     }
-    printf("%d %d",first,sec);
+    int fir,sec
+    int small=arr[n-1]-arr[n-2];
+    for(i=0;i<n;i++){
+        if(arr[i]-arr[i+1]<small){
+            fir=arr[i];
+            sec=arr[i+1];
+
+        }
+
+    }
+    printf("%d %d",fir,sec);
     
     
 
