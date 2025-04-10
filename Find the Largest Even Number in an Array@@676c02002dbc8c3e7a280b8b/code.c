@@ -26,14 +26,15 @@ int main() {
     for(i=n;i>i;i--){
         if(arr[i]%2==0){
             max=arr[i];
-            max=1;
+            
         }
     }
     if(max){
         printf("-1");
     }else{
-        printf("%d",max);
+        printf("%d",arr[i]);
     }
+    
 
     
 }
