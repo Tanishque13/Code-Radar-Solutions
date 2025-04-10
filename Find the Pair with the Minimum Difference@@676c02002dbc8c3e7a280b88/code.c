@@ -14,6 +14,7 @@ int main(){
         if(arr[i]-arr[i+1]<min){
             first=arr[i];
             sec=arr[i+1];
+            break;
         }
     }
     printf("%d %d",first,sec);
