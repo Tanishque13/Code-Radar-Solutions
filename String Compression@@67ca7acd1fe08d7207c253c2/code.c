@@ -6,7 +6,7 @@ char compressString(char str[],char compressed){
         freq[(int)str[i]]++;
 
     }
-    found=0;
+    int found=0;
     for(i=0;str[i]!='\0';i++){
         if(freq[256]!=1){
             found=1;
