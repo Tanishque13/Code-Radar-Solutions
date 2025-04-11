@@ -2,12 +2,13 @@
 int factorialRange(int start,int end){
     start=0;
     end=1;
+    int i;
     int next=start+end;
     printf("%d",next);
     next=start;
     start=end;
     end=next;
-    for(start=0;start<end;start++){
+    for(i=0;i<end;i++){
         printf("%d",next);
     }
 
