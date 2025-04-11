@@ -8,11 +8,13 @@ int trackScores(int scores[],int n,int result[]){
     for(i=0;i<n;i++){
         if(scores[i]>high){
             highsco++;
+            continue;
 
 
         }
         if(scores[i]<low){
             lowsco++;
+            continue;
 
 
         }
