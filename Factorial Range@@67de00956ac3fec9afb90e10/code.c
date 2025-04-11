@@ -8,7 +8,7 @@ int factorialRange(int start,int end){
     start=end;
     end=next;
     for(start=0;start<end;start++){
-        pritf("%d",next);
+        printf("%d",next);
     }
 
 
