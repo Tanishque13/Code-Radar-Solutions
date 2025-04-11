@@ -1,5 +1,5 @@
 // Your code here...
-compressString(char str[],char compressed[]){
+char compressString(char str[],char compressed[]){
     int freq[256]={0};
     for(i=0;str[i]!='\0';i++){
         freq[(int)str[i]]++;
