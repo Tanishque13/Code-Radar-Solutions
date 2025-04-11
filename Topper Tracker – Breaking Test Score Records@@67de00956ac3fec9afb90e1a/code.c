@@ -2,7 +2,7 @@
 int trackScores(int scores[],int n,int result[]){
     int i;
     int high=scores[0];
-    int hihsco=0;
+    int highsco=0;
     int low=scores[0];
     int lowsco=0;
 
