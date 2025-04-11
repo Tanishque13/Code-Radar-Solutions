@@ -1,16 +1,17 @@
-// Your code here...
-int factorialRange(int start,int end){
-    start=0;
-    end=1;
-    int i;
-    int next=start+end;
-    printf("%d",next);
-    next=start;
-    start=end;
-    end=next;
-    for(i=start;i<end;i++){
-        printf("%d",next);
+#include <stdio.h>
+
+// Function to calculate factorial of a number
+int factorial(int n) {
+    int result = 1;
+    for(int i = 2; i <= n; i++) {
+        result *= i;
     }
+    return result;
+}
 
-
+// Function to print factorials in a given range
+void factorialRange(int start, int end) {
+    for(int i = start; i <= end; i++) {
+        printf("%d\n", factorial(i));
+    }
 }
