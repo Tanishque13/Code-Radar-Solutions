@@ -5,16 +5,18 @@ int trackScores(int scores[],int n,int result[]){
     int highsco=0;
     int low=scores[0];
     int lowsco=0;
-    for(i=0;i<n;i++){
+    for(i=1;i<n;i++){
         if(scores[i]>high){
+            high=scores[i];
             highsco++;
-            continue;
+            
 
 
         }
         if(scores[i]<low){
+            low=scores[i];
             lowsco++;
-            continue;
+            
 
 
         }
