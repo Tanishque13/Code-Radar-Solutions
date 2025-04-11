@@ -9,9 +9,3 @@ int factorial(int n) {
     return result;
 }
 
-// Function to print factorials in a given range
-void factorialRange(int start, int end) {
-    for(int i = start; i <= end; i++) {
-        printf("%d\n", factorial(i));
-    }
-}
