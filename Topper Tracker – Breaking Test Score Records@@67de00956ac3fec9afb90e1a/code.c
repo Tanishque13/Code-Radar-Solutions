@@ -1,5 +1,6 @@
 // Your code here...
-void trackScores(scores,n,result){
+int trackScores(scores,n,result){
+    int i;
     int high=scores[0];
     hihsco=0;
     int low=scores[0];
