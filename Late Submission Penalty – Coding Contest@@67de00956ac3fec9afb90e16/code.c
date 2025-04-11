@@ -1,16 +1,8 @@
 // Your code here...
-int calculatePenalty(int subDay,int subMonth,int subYear,int dueDay,int dueMonth,int dueYear){
+int calculatePenalty(int sd,int sm,int sy,int dd,int dm,int dy){
     int penalty=0;
-    if(subDay>dueDay && subMonth==dueMonth){
-        penalty=(subDay-dueDay)-1;
-    }
-    else if((subDay>dueDay && subMonth>dueMonth) ||(subDay<dueDay && subMonth>dueMonth)){
-        penalty=(subMonth-dueMonth)*200;
-
-    }
-    else{
-        penalty=(subYear-dueYear)*5000;
-
+    if(sy>dy){
+        penalty=(sy-dy)*5000
     }
     printf("%d",penalty);
 
