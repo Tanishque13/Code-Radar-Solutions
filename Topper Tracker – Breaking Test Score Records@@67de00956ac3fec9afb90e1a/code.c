@@ -2,9 +2,9 @@
 int trackScores(scores,n,result){
     int i;
     int high=scores[0];
-    hihsco=0;
+    int hihsco=0;
     int low=scores[0];
-    lowsco=0;
+    int lowsco=0;
 
     for(i=0;i<n;i++){
         if(scores[i]>scores[0]){
