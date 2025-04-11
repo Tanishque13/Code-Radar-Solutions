@@ -23,7 +23,7 @@ int trackScores(int scores[],int n,int result[]){
 
     }
     result[0]=highsco++;
-    result[0]=lowsco++;
+    result[1]=lowsco++;
 
 
 }
