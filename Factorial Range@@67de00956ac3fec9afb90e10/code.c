@@ -2,9 +2,9 @@
 int factorialRange(int start,int end){
     start=0;
     end=1;
-    next=start+end;
+    int next=start+end;
     printf("%d",next);
-    int next=start;
+    next=start;
     start=end;
     end=next;
     for(start=0;start<end;start++){
