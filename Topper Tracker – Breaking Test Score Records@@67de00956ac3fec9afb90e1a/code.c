@@ -1,5 +1,5 @@
 // Your code here...
-int trackScores(scores[1000],n,result){
+int trackScores(int scores[],int n,int result[]){
     int i;
     int high=scores[0];
     int hihsco=0;
