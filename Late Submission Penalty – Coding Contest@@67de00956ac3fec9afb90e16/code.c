@@ -1,5 +1,5 @@
 // Your code here...
-void calculatePenalty(int subDay,int SubMonth,int subYear,int dueDay,int dueMonth,int dueYear){
+int calculatePenalty(int subDay,int subMonth,int subYear,int dueDay,int dueMonth,int dueYear){
     int penalty=0;
     if(subDay>dueDay && subMonth==dueMonth){
         penalty+=(subDay-dueDay)*10;
