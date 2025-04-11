@@ -22,10 +22,8 @@ int trackScores(int scores[],int n,int result[]){
         }
 
     }
-    int result[2]={highsco++,lowsco++}
-    for(i=0;i<2;i++){
-        printf("%d",result);
-    }
+    result[0]=highsco++;
+    result[0]=lowsco++;
 
 
 }
